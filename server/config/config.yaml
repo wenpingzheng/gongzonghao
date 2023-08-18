@@ -1,0 +1,14 @@
+port: 9099
+host: "0.0.0.0"
+plugin:
+middleware:
+  static:
+    root: "./public"
+  cors:
+    credentials: true
+storage:
+  mysql:
+    demo:
+      host: ""
+      port: 3306
+  

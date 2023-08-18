@@ -1,0 +1,48 @@
+{
+  "name": "gms",
+  "version": "1.0.0",
+  "description": "搞码事",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "test",
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 nodemon --exec babel-node src/app.js",
+    "build": "babel src --out-dir dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "3.0.0",
+    "@types/ejs": "3.1.2",
+    "@wpzheng/koa": "^1.0.2",
+    "axios": "0.26.1",
+    "ejs": "3.1.9",
+    "js-yaml": "3.13.1",
+    "koa": "2.11.0",
+    "koa-body": "4.1.1",
+    "koa-compose": "3.1.0",
+    "koa-compress": "3.1.0",
+    "koa-convert": "1.2.0",
+    "koa-json": "2.0.2",
+    "koa-logger": "3.2.1",
+    "koa-mount": "4.0.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "5.0.0",
+    "koa-static-cache": "5.1.2",
+    "lodash": "4.17.21",
+    "lodash.get": "4.4.2",
+    "log4js": "6.2.1",
+    "mariadb": "2.3.1",
+    "moment": "2.29.4",
+    "pm2": "5.2.0",
+    "sequelize": "5.21.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.9.0",
+    "@babel/node": "7.8.7",
+    "@babel/plugin-proposal-export-default-from": "7.8.3",
+    "@babel/preset-env": "7.9.5",
+    "babel-plugin-module-resolver": "5.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
