@@ -6,14 +6,15 @@
   "scripts": {
     "test": "test",
     "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 nodemon --exec babel-node src/app.js",
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "start": "pm2 start pm2.config.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@koa/cors": "3.0.0",
     "@types/ejs": "3.1.2",
-    "@wpzheng/koa": "^1.0.2",
+    "@wpzheng/koa": "^1.0.3",
     "axios": "0.26.1",
     "ejs": "3.1.9",
     "js-yaml": "3.13.1",
