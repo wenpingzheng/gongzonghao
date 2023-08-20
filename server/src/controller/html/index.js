@@ -3,8 +3,8 @@ import path from 'path';
 
 export default {
   async show(ctx) {
-    const html = await ejs.renderFile(path.join(__dirname, '../../../views/home.ejs'), {
-      title: '个人页'
+    const html = await ejs.renderFile(path.join(__dirname, '../../../views/index.ejs'), {
+      title: '首页'
     });
     ctx.body = html;
   }

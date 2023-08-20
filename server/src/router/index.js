@@ -4,12 +4,14 @@ import Router from 'koa-router';
 import token from '../controller/apis/token';
 
 // HTML
+import index from '../controller/html/index';
 import home from '../controller/html/home';
 
 const router = new Router();
 
 // 路由 - 页面
-router.get('/', home.show);
+router.get('/', index.show);
+router.get('/home', home.show)
 
 // 路由 - 接口
 router.get('/api/gettoken', token.getToken);
