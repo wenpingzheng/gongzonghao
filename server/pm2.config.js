@@ -4,7 +4,7 @@ module.exports = {
       name: 'gzh',
       script: './dist/app.js',
       watch: true,
-      ignore_watch: ['node_modules'],
+      ignore_watch: ['node_modules', 'logs'],
       cwd: './',
       env: {
         NODE_ENV: 'production',
