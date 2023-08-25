@@ -2,6 +2,7 @@ import Router from 'koa-router';
 
 // API
 import token from '../controller/apis/token';
+import wx from '../controller/apis/wx';
 
 // HTML
 import index from '../controller/html/index';
@@ -15,5 +16,6 @@ router.get('/home', home.show)
 
 // 路由 - 接口
 router.get('/api/gettoken', token.getToken);
+router.get('/auth', wx.auth);
 
 export default router;
