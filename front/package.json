@@ -1,0 +1,77 @@
+{
+  "name": "qn-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./scripts/utils/dev.js",
+    "build": "node ./scripts/utils/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenpingzheng/qn-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenpingzheng/qn-project/issues"
+  },
+  "homepage": "https://github.com/wenpingzheng/qn-project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/plugin-transform-runtime": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^9.1.2",
+    "chalk": "4.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "cssnano": "^5.1.15",
+    "execa": "5.1.1",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^5.5.0",
+    "husky": "4.2.5",
+    "inquirer": "8.1.5",
+    "lint-staged": "13.2.0",
+    "mini-css-extract-plugin": "^2.7.3",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.0.2",
+    "prettier": "2.4.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "ssi-webpack5-plugin": "^2.0.0",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "browserslist": [
+    "> 0.1%",
+    "last 2 versions",
+    "ie>=9"
+  ],
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "volta": {
+    "node": "14.18.0",
+    "yarn": "1.22.10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "node build/vertify-commit-msg.js"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,ts,jsx,tsx,css,md}": "prettier --write"
+  }
+}
