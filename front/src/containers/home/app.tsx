@@ -1,9 +1,9 @@
 // src/containers/home/app.tsx
 import React, { MutableRefObject, useRef } from 'react';
 import Text from './components/text';
-import RefPre from './components/ref-pre';
-import { TestInput, DestInput } from './components/ref-input';
-import Banner from './assets/images/banner.png';
+// import RefPre from './components/ref-pre';
+// import { TestInput, DestInput } from './components/ref-input';
+// import Banner from './assets/images/banner.png';
 import './styles/index.scss';
 
 import { CommonContext } from './data';
@@ -15,15 +15,15 @@ import { CommonContext } from './data';
 
 export default () => {
   const inputEl: MutableRefObject<any> = useRef(null);
-  const onButtonClick = () => {
-    // console.log('对象', inputEl.current.getType()); // <input type="text" id="sss">
-    // inputEl.current.focus();
-    console.log(typeof inputEl.current);
-  };
+  // const onButtonClick = () => {
+  // console.log('对象', inputEl.current.getType()); // <input type="text" id="sss">
+  // inputEl.current.focus();
+  // console.log(typeof inputEl.current);
+  // };
   return (
     <div>
       <CommonContext.Provider value={{ articleId: '333' }}>
-        <RefPre />
+        {/* <RefPre /> */}
         <Text />
         {/* <TestInput ref={inputEl} id="sss"/> */}
         {/* <DestInput ref={inputEl} id='sss' /> */}

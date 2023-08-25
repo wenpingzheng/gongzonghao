@@ -7,7 +7,6 @@ export default () => {
       inputRef.current.focus();
     }
   };
-  console.log('text');
   return (
     <>
       <input ref={inputRef} type='text' />
