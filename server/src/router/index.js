@@ -17,5 +17,6 @@ router.get('/home', home.show)
 // 路由 - 接口
 router.get('/api/gettoken', token.getToken);
 router.get('/auth', wx.auth);
+router.get('/jsapi', wx.getTicket);
 
 export default router;
