@@ -1,6 +1,7 @@
 // src/containers/home/app.tsx
-import React, { MutableRefObject, useRef } from 'react';
+import React, { MutableRefObject, useRef, useEffect } from 'react';
 import Text from './components/text';
+import axios from 'axios';
 // import RefPre from './components/ref-pre';
 // import { TestInput, DestInput } from './components/ref-input';
 // import Banner from './assets/images/banner.png';
@@ -14,12 +15,26 @@ import { CommonContext } from './data';
 // };
 
 export default () => {
-  const inputEl: MutableRefObject<any> = useRef(null);
+  // const inputEl: MutableRefObject<any> = useRef(null);
   // const onButtonClick = () => {
   // console.log('对象', inputEl.current.getType()); // <input type="text" id="sss">
   // inputEl.current.focus();
   // console.log(typeof inputEl.current);
   // };
+
+  useEffect(() => {
+    const url = encodeURIComponent(location.href.split('#')[0]);
+    console.log(url, 'request-url');
+    axios.get(`/jsapi?url=${url}`).then((result) => {
+      console.log(result, 'result');
+      wx.config({
+        debug: true,
+        ...result.data,
+        jsApiList: ['scanQRCode'], // 需要使用的JS接口列表
+      });
+    });
+  }, []);
+
   return (
     <div>
       <CommonContext.Provider value={{ articleId: '333' }}>

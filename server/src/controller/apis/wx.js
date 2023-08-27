@@ -1,9 +1,7 @@
 import { error } from '@wpzheng/koa/lib/controller';
 import config from '../../../config/config.json';
-// import * as utils from '../../utils';
+import * as utils from '../../utils';
 import sha1 from 'sha1';
-
-// const dbToken = new utils.Db({ dbname: 'db_token' });
 
 export default {
   async auth(ctx) {
@@ -20,16 +18,10 @@ export default {
       error(ctx, 'Error');
     }
   },
-  async getTicket(ctx) {
-    // 添加
-    // await dbToken.add({
-    //   name: 'test',
-    //   value: 122222222
-    // });
-
-    // 更新
-    // const item = await dbToken.find('name', 'ticket');
-    // await dbToken.update(item.objectId, { 'value': 100000 });
-
+  async getWxParams(ctx) {
+    let { url } = ctx.query;
+    url = decodeURIComponent(url);
+    const conf = await utils.getSignature(url);
+    ctx.body = conf;
   }
 }
