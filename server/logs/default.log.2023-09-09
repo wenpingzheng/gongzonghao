@@ -1,0 +1,948 @@
+[2023-09-09T11:58:01.280] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T11:58:14.185] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T11:58:14.196] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-09T11:58:14.198] [INFO] default - GET
+[2023-09-09T11:58:14.204] [INFO] default - Promise {
+  {
+    xml: {
+      ToUserName: [Array],
+      FromUserName: [Array],
+      CreateTime: [Array],
+      MsgType: [Array],
+      Event: [Array],
+      EventKey: [Array]
+    }
+  }
+}
+[2023-09-09T11:58:14.212] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m19ms[39m [90m313b[39m
+[2023-09-09T11:58:14.223] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T11:58:14.224] [INFO] default -   [90m<--[39m [1mGET[22m [90m/favicon.ico[39m
+[2023-09-09T11:58:14.225] [INFO] default - GET
+[2023-09-09T11:58:14.225] [INFO] default - Promise {
+  {
+    xml: {
+      ToUserName: [Array],
+      FromUserName: [Array],
+      CreateTime: [Array],
+      MsgType: [Array],
+      Event: [Array],
+      EventKey: [Array]
+    }
+  }
+}
+[2023-09-09T11:58:14.227] [INFO] default -   [90m-->[39m [1mGET[22m [90m/favicon.ico[39m [33m404[39m [90m3ms[39m [90m-[39m
+[2023-09-09T11:59:20.477] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T11:59:25.384] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T11:59:25.387] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-09T11:59:25.388] [INFO] default - GET
+[2023-09-09T11:59:25.390] [INFO] default - {
+  xml: {
+    ToUserName: [ 'gh_3381147c6f87' ],
+    FromUserName: [ 'o7h9p64v-B0HhtJ_jgZWgBZ4tmhg' ],
+    CreateTime: [ '1694230062' ],
+    MsgType: [ 'event' ],
+    Event: [ 'CLICK' ],
+    EventKey: [ 'download' ]
+  }
+}
+[2023-09-09T11:59:25.394] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m7ms[39m [90m313b[39m
+[2023-09-09T12:03:05.676] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T12:03:07.310] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T12:03:07.314] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-09T12:03:07.315] [INFO] default - GET
+[2023-09-09T12:03:07.319] [INFO] default - {
+  xml: {
+    ToUserName: [ 'gh_3381147c6f87' ],
+    FromUserName: [ 'o7h9p64v-B0HhtJ_jgZWgBZ4tmhg' ],
+    CreateTime: [ '1694230062' ],
+    MsgType: [ 'event' ],
+    Event: [ 'CLICK' ],
+    EventKey: [ 'download' ]
+  }
+}
+[2023-09-09T12:03:07.326] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m13ms[39m [90m313b[39m
+[2023-09-09T12:03:35.035] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T12:03:39.356] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T12:03:40.054] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T12:03:40.057] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-09T12:03:40.057] [INFO] default - GET
+[2023-09-09T12:03:40.060] [INFO] default - [ 'xml' ] keys
+[2023-09-09T12:03:40.060] [INFO] default - undefined
+[2023-09-09T12:03:40.064] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m8ms[39m [90m313b[39m
+[2023-09-09T12:03:56.569] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T12:06:43.781] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T12:07:10.821] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T12:07:10.824] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-09T12:07:10.824] [INFO] default - GET
+[2023-09-09T12:07:10.827] [INFO] default - [
+  'ToUserName',
+  'FromUserName',
+  'CreateTime',
+  'MsgType',
+  'Event',
+  'EventKey'
+] keys
+[2023-09-09T12:07:10.827] [INFO] default - undefined
+[2023-09-09T12:07:10.833] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m10ms[39m [90m313b[39m
+[2023-09-09T12:09:12.753] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T12:09:18.127] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T12:09:18.130] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-09T12:09:18.131] [INFO] default - GET
+[2023-09-09T12:09:18.133] [INFO] default - [
+  'ToUserName',
+  'FromUserName',
+  'CreateTime',
+  'MsgType',
+  'Event',
+  'EventKey'
+] keys
+[2023-09-09T12:09:18.134] [INFO] default -   [31mxxx[39m [1mGET[22m [90m/[39m [31m500[39m [90m4ms[39m [90m-[39m
+[2023-09-09T12:09:18.136] [ERROR] default - app onerror: 
+message: result is not a function 
+ stack: TypeError: result is not a function
+    at forEach (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/tools.js:33:21)
+    at Array.forEach (<anonymous>)
+    at Object.formatMessage (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/tools.js:32:25)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/plugin/info.js:21:30
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/plugin/info.js:3:35)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/plugin/info.js:3:35)
+[2023-09-09T12:09:19.183] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T12:09:19.188] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-09T12:09:19.189] [INFO] default - GET
+[2023-09-09T12:09:19.191] [INFO] default - [
+  'ToUserName',
+  'FromUserName',
+  'CreateTime',
+  'MsgType',
+  'Event',
+  'EventKey'
+] keys
+[2023-09-09T12:09:19.193] [INFO] default -   [31mxxx[39m [1mGET[22m [90m/[39m [31m500[39m [90m6ms[39m [90m-[39m
+[2023-09-09T12:09:19.197] [ERROR] default - app onerror: 
+message: result is not a function 
+ stack: TypeError: result is not a function
+    at forEach (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/tools.js:33:21)
+    at Array.forEach (<anonymous>)
+    at Object.formatMessage (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/tools.js:32:25)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/plugin/info.js:21:30
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/plugin/info.js:3:35)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/plugin/info.js:3:35)
+[2023-09-09T12:10:03.045] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T12:10:04.434] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T12:10:07.378] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T12:10:07.387] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-09T12:10:07.388] [INFO] default - GET
+[2023-09-09T12:10:07.391] [INFO] default - [
+  'ToUserName',
+  'FromUserName',
+  'CreateTime',
+  'MsgType',
+  'Event',
+  'EventKey'
+] keys
+[2023-09-09T12:10:07.391] [INFO] default - [ 'gh_3381147c6f87' ]
+[2023-09-09T12:10:07.392] [INFO] default - [ 'o7h9p64v-B0HhtJ_jgZWgBZ4tmhg' ]
+[2023-09-09T12:10:07.392] [INFO] default - [ '1694230062' ]
+[2023-09-09T12:10:07.392] [INFO] default - [ 'event' ]
+[2023-09-09T12:10:07.392] [INFO] default - [ 'CLICK' ]
+[2023-09-09T12:10:07.392] [INFO] default - [ 'download' ]
+[2023-09-09T12:10:07.392] [INFO] default - undefined
+[2023-09-09T12:10:07.398] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m12ms[39m [90m313b[39m
+[2023-09-09T12:14:07.091] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T12:14:14.274] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T12:14:15.214] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T12:14:15.217] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-09T12:14:15.218] [INFO] default - GET
+[2023-09-09T12:14:15.222] [INFO] default - {
+  ToUserName: 'gh_3381147c6f87',
+  FromUserName: 'o7h9p64v-B0HhtJ_jgZWgBZ4tmhg',
+  CreateTime: '1694230062',
+  MsgType: 'event',
+  Event: 'CLICK',
+  EventKey: 'download'
+}
+[2023-09-09T12:14:15.229] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m13ms[39m [90m313b[39m
+[2023-09-09T19:57:15.386] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T19:57:20.167] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T19:57:20.176] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-09T19:57:20.177] [INFO] default - GET
+[2023-09-09T19:57:20.182] [INFO] default - {
+  ToUserName: 'gh_3381147c6f87',
+  FromUserName: 'o7h9p64v-B0HhtJ_jgZWgBZ4tmhg',
+  CreateTime: '1694230062',
+  MsgType: 'event',
+  Event: 'CLICK',
+  EventKey: 'download'
+}
+[2023-09-09T19:57:20.189] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m14ms[39m [90m313b[39m
+[2023-09-09T19:57:25.780] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T19:57:25.781] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-09T19:57:25.781] [INFO] default - GET
+[2023-09-09T19:57:25.782] [INFO] default - {
+  ToUserName: 'gh_3381147c6f87',
+  FromUserName: 'o7h9p64v-B0HhtJ_jgZWgBZ4tmhg',
+  CreateTime: '1694230062',
+  MsgType: 'event',
+  Event: 'CLICK',
+  EventKey: 'download'
+}
+[2023-09-09T19:57:25.784] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m3ms[39m [90m313b[39m
+[2023-09-09T19:58:10.971] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T19:58:15.034] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T19:58:38.691] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T19:58:47.603] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T19:58:50.342] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T19:58:56.112] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T19:58:59.205] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T19:59:00.890] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T19:59:03.268] [INFO] default - undefined undefined undefined undefined
+[2023-09-09T19:59:03.278] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-09T19:59:03.280] [INFO] default - GET
+[2023-09-09T19:59:03.286] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m9ms[39m [90m313b[39m
+[2023-09-09T20:24:17.147] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:24:45.180] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:24:51.654] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:25:50.509] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:28:39.640] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:29:30.209] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:29:33.554] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:30:18.293] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:32:56.243] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:35:01.549] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:35:05.921] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:36:43.351] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:36:52.964] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:37:10.666] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:37:15.523] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:38:15.539] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:38:39.000] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:39:19.764] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:40:05.451] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:40:42.062] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:42:16.501] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:42:23.170] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:43:06.504] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:43:18.564] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-09T20:43:18.607] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:43:21.928] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:43:24.476] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:45:29.010] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:45:38.175] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:52:30.290] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:52:33.542] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:54:44.282] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:55:06.710] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:55:10.736] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:57:50.535] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:57:54.085] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:59:57.607] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T20:59:59.668] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:03:42.351] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:07:41.954] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:07:56.122] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:09:10.515] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:09:41.864] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:09:58.639] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:10:01.650] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:10:11.514] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:10:15.098] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:14:41.006] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:14:44.880] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:17:32.700] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:17:42.050] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:18:46.044] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:18:48.573] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:18:51.177] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:19:52.833] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:19:59.778] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:20:48.725] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:20:55.634] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:21:20.719] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:21:22.858] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:25:10.493] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:25:12.941] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:26:45.190] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:26:47.971] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:30:05.737] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:30:06.460] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:30:16.726] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:30:21.059] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:34:53.337] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:35:06.766] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:35:11.242] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:35:17.114] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:35:19.924] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:35:24.833] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:36:37.869] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:36:39.757] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:36:56.491] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:37:34.067] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:37:51.998] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:38:29.755] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:38:46.199] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:38:56.537] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:39:09.586] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:40:44.283] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:43:35.240] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T21:55:40.519] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:00:40.986] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:00:49.196] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:02:06.280] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:02:13.181] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:04:08.412] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:04:33.913] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:06:51.811] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:11:22.323] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:11:28.060] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:11:29.395] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:11:33.075] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:12:41.706] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:13:07.763] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:13:10.524] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:13:16.247] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:13:16.297] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:14:26.658] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:14:29.639] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:14:34.515] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:23:47.785] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:23:57.793] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:27:26.671] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:27:37.535] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:27:42.482] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:37:25.854] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:43:19.509] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:45:35.745] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:46:09.326] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:46:26.615] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T22:47:02.608] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T23:43:25.133] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T23:43:30.138] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T23:43:40.119] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T23:43:40.167] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T23:51:58.569] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T23:52:04.725] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T23:56:23.791] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T23:56:27.248] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T23:58:54.638] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T23:58:58.191] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-09T23:59:01.886] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)

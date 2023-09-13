@@ -1,0 +1,80 @@
+[2023-09-07T23:04:19.155] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-07T23:04:34.659] [INFO] default - undefined undefined undefined undefined
+[2023-09-07T23:04:34.661] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-07T23:04:34.668] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m7ms[39m [90m313b[39m
+[2023-09-07T23:04:34.689] [INFO] default - undefined undefined undefined undefined
+[2023-09-07T23:04:34.690] [INFO] default -   [90m<--[39m [1mGET[22m [90m/favicon.ico[39m
+[2023-09-07T23:04:34.690] [INFO] default -   [90m-->[39m [1mGET[22m [90m/favicon.ico[39m [33m404[39m [90m1ms[39m [90m-[39m
+[2023-09-07T23:06:12.744] [INFO] default - {} config
+[2023-09-07T23:06:12.751] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-07T23:06:39.710] [INFO] default - {} config { subdomainOffset: 2, proxy: false, env: 'development' }
+[2023-09-07T23:06:39.715] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-07T23:17:45.122] [INFO] default - {} config { subdomainOffset: 2, proxy: false, env: 'development' }
+[2023-09-07T23:17:45.128] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-07T23:17:48.751] [INFO] default - {} config { subdomainOffset: 2, proxy: false, env: 'development' }
+[2023-09-07T23:17:48.757] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-07T23:18:01.888] [INFO] default - undefined undefined undefined undefined
+[2023-09-07T23:18:01.895] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-07T23:18:01.896] [INFO] default - {
+  request: {
+    method: 'GET',
+    url: '/',
+    header: {
+      host: '0.0.0.0:9099',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+      'accept-encoding': 'gzip, deflate',
+      'accept-language': 'zh-CN,zh;q=0.9'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] { vary: 'Accept-Encoding' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+} ctx======
+[2023-09-07T23:18:01.909] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m14ms[39m [90m313b[39m
+[2023-09-07T23:18:45.710] [INFO] default - {} config { subdomainOffset: 2, proxy: false, env: 'development' }
+[2023-09-07T23:18:45.717] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-07T23:18:47.637] [INFO] default - undefined undefined undefined undefined
+[2023-09-07T23:18:47.641] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-07T23:18:47.641] [INFO] default - GET
+[2023-09-07T23:18:47.641] [INFO] default - {
+  request: {
+    method: 'GET',
+    url: '/',
+    header: {
+      host: '0.0.0.0:9099',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+      'accept-encoding': 'gzip, deflate',
+      'accept-language': 'zh-CN,zh;q=0.9'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] { vary: 'Accept-Encoding' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+} ctx======
+[2023-09-07T23:18:47.647] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m7ms[39m [90m313b[39m
+[2023-09-07T23:19:16.655] [INFO] default - {} config { subdomainOffset: 2, proxy: false, env: 'development' }
+[2023-09-07T23:19:16.662] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-07T23:19:23.665] [INFO] default - {} config { subdomainOffset: 2, proxy: false, env: 'development' }
+[2023-09-07T23:19:23.670] [INFO] default - app started at 0.0.0.0:9099

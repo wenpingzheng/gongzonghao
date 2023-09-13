@@ -1,10 +1,9 @@
-/**
- * 数据存储
- * add  => ({ key1: value1, key2: value2 }) - 添加
- * find => ({ key, value }) - 查找
- * update => (objectId, { key: value }) - 更新
- * 
- */
+
+// Created by WpZheng
+
+// add  => ({ key1: value1, key2: value2 }) - 添加
+// find => ({ key, value }) - 查找
+// update => (objectId, { key: value }) - 更新
 
 import AV from 'leancloud-storage';
 import config from '../../config/config.json';
@@ -12,11 +11,7 @@ import config from '../../config/config.json';
 const { appId, appKey, serverURL } = config.storage;
 
 // 初始化
-AV.init({
-  appId,
-  appKey,
-  serverURL
-});
+AV.init({ appId, appKey, serverURL });
 
 class Db {
   constructor(props) {

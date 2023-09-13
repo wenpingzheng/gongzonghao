@@ -1,0 +1,12 @@
+[2023-09-01T23:14:51.435] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-01T23:15:18.981] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-01T23:15:38.539] [INFO] default - undefined undefined undefined undefined
+[2023-09-01T23:15:38.547] [INFO] default -   [90m<--[39m [1mGET[22m [90m/page/git-learn/1[39m
+[2023-09-01T23:15:38.562] [INFO] default -   [90m-->[39m [1mGET[22m [90m/page/git-learn/1[39m [32m200[39m [90m17ms[39m [90m21.48kb[39m
+[2023-09-01T23:15:38.569] [INFO] default - undefined undefined undefined undefined
+[2023-09-01T23:15:38.576] [INFO] default - undefined undefined undefined undefined
+[2023-09-01T23:15:38.580] [INFO] default - undefined undefined undefined undefined
+[2023-09-01T23:15:38.581] [INFO] default - undefined undefined undefined undefined
+[2023-09-01T23:15:38.603] [INFO] default - undefined undefined undefined undefined
+[2023-09-01T23:15:38.604] [INFO] default -   [90m<--[39m [1mGET[22m [90m/favicon.ico[39m
+[2023-09-01T23:15:38.606] [INFO] default -   [90m-->[39m [1mGET[22m [90m/favicon.ico[39m [33m404[39m [90m1ms[39m [90m-[39m

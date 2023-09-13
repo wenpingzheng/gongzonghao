@@ -1,0 +1,466 @@
+[2023-09-03T15:21:47.109] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:21:47.134] [ERROR] default - (node:46007) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T15:21:47.291] [INFO] default - 查找数据出现错误：TypeError: Cannot read properties of undefined (reading 'toJSON')
+[2023-09-03T15:22:21.638] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T15:22:21.644] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T15:22:21.653] [ERROR] default - app onerror: 
+message: wx is not defined 
+ stack: ReferenceError: wx is not defined
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:14:17
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:1:38)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:1:38)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:1:38
+    at new Promise (<anonymous>)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:1:38
+    at createMenu (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:14:27)
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/lib/router.js:373:31)
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/node_modules/koa-compose/index.js:42:32)
+    at views (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-views/src/index.js:60:12)
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:92:32
+    at step (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:33:23)
+    at Object.next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:14:53)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:4:12)
+[2023-09-03T15:22:21.657] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [31m500[39m [90m14ms[39m [90m24b[39m
+[2023-09-03T15:22:21.685] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T15:22:21.687] [INFO] default -   [90m<--[39m [1mGET[22m [90m/favicon.ico[39m
+[2023-09-03T15:22:21.688] [INFO] default -   [90m-->[39m [1mGET[22m [90m/favicon.ico[39m [33m404[39m [90m1ms[39m [90m-[39m
+[2023-09-03T15:23:02.124] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:23:02.145] [ERROR] default - (node:46688) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T15:23:44.949] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:23:44.971] [ERROR] default - (node:46836) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T15:23:47.623] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T15:23:47.637] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T15:23:47.639] [INFO] default - Wechat { access_token: Promise { undefined } } wx
+[2023-09-03T15:23:47.643] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m7ms[39m [90m-[39m
+[2023-09-03T15:24:28.577] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:24:28.601] [ERROR] default - (node:47263) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T15:24:40.917] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:24:40.942] [ERROR] default - (node:47357) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T15:24:43.455] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T15:24:43.468] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T15:24:43.471] [INFO] default - Promise { undefined } wxToken
+[2023-09-03T15:24:43.472] [INFO] default - Promise { undefined } wx
+[2023-09-03T15:24:43.481] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m14ms[39m [90m-[39m
+[2023-09-03T15:25:44.209] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:25:44.643] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T15:25:44.646] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T15:25:44.648] [INFO] default - Promise { <pending> } wx
+[2023-09-03T15:25:44.673] [ERROR] default - (node:47577) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T15:25:44.675] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m30ms[39m [90m-[39m
+[2023-09-03T15:25:45.095] [INFO] default - undefined wxToken
+[2023-09-03T15:27:46.552] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:27:50.155] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T15:27:50.166] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T15:27:50.172] [INFO] default - Promise { <pending> } wx
+[2023-09-03T15:27:50.216] [ERROR] default - (node:48183) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T15:27:50.218] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m54ms[39m [90m-[39m
+[2023-09-03T15:27:50.308] [INFO] default - undefined value======
+[2023-09-03T15:27:50.674] [INFO] default - undefined wxToken
+[2023-09-03T15:27:59.435] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:31:58.489] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:32:01.290] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T15:32:01.293] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T15:32:01.297] [INFO] default - Promise { <pending> } wx
+[2023-09-03T15:32:01.341] [ERROR] default - (node:49445) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T15:32:01.342] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m49ms[39m [90m-[39m
+[2023-09-03T15:32:01.445] [INFO] default - http://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx250422f548bb8d72&secret=8e5597b95aea9fa3cada39e221ebdae8 tolurl===
+[2023-09-03T15:32:01.797] [INFO] default - undefined wxToken
+[2023-09-03T15:32:30.341] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:32:39.138] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:32:50.567] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T15:32:50.580] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T15:32:50.588] [INFO] default - Promise { <pending> } wx
+[2023-09-03T15:32:50.630] [ERROR] default - (node:49829) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T15:32:50.631] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m53ms[39m [90m-[39m
+[2023-09-03T15:32:51.021] [INFO] default - {
+  status: 200,
+  statusText: 'OK',
+  headers: AxiosHeaders {
+    connection: 'close',
+    date: 'Sun, 03 Sep 2023 07:32:51 GMT',
+    'content-type': 'application/json; encoding=utf-8',
+    retkey: '11',
+    logicret: '40164',
+    'content-length': '131'
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/1.4.0',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx250422f548bb8d72&secret=8e5597b95aea9fa3cada39e221ebdae8',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api.weixin.qq.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.weixin.qq.com',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: false,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 94,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET /cgi-bin/token?grant_type=client_credential&appid=wx250422f548bb8d72&secret=8e5597b95aea9fa3cada39e221ebdae8 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.4.0\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: api.weixin.qq.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/cgi-bin/token?grant_type=client_credential&appid=wx250422f548bb8d72&secret=8e5597b95aea9fa3cada39e221ebdae8',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx250422f548bb8d72&secret=8e5597b95aea9fa3cada39e221ebdae8',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 12,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api.weixin.qq.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx250422f548bb8d72&secret=8e5597b95aea9fa3cada39e221ebdae8',
+      _isRedirect: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kEndCalled)]: true,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: {
+    errcode: 40164,
+    errmsg: 'invalid ip 124.126.138.39 ipv6 ::ffff:124.126.138.39, not in whitelist rid: 64f436a3-519d6376-532f157a'
+  }
+} ======
+[2023-09-03T15:32:51.112] [INFO] default - undefined wxToken
+[2023-09-03T15:34:18.117] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:34:23.386] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T15:34:23.391] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T15:34:23.395] [INFO] default - Promise { <pending> } wx
+[2023-09-03T15:34:23.430] [ERROR] default - (node:50240) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T15:34:23.431] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m41ms[39m [90m-[39m
+[2023-09-03T15:34:23.944] [INFO] default -  wxToken
+[2023-09-03T15:34:46.422] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:46:00.800] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:50:29.477] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T15:58:33.344] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:02:04.667] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:04:02.672] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:04:04.902] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T16:04:04.910] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T16:04:04.914] [INFO] default - Promise { <pending> } wx
+[2023-09-03T16:04:04.945] [ERROR] default - (node:58934) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T16:04:04.946] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m37ms[39m [90m-[39m
+[2023-09-03T16:04:05.046] [INFO] default - 查找数据出现错误：TypeError: Cannot read properties of undefined (reading 'toJSON')
+[2023-09-03T16:04:05.605] [INFO] default -  wxToken
+[2023-09-03T16:04:26.593] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:04:27.141] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T16:04:27.143] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T16:04:27.145] [INFO] default - Promise { <pending> } wx
+[2023-09-03T16:04:27.167] [ERROR] default - (node:59179) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T16:04:27.168] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m25ms[39m [90m-[39m
+[2023-09-03T16:04:27.700] [INFO] default -  wxToken
+[2023-09-03T16:04:41.874] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:04:45.031] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:04:50.239] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:05:31.433] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:05:40.443] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:05:48.607] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:05:56.857] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:06:00.071] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:06:11.833] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:06:22.569] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T16:06:22.576] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T16:06:22.582] [INFO] default - Promise { <pending> } wx
+[2023-09-03T16:06:22.632] [ERROR] default - (node:60105) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T16:06:22.633] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m58ms[39m [90m-[39m
+[2023-09-03T16:06:22.734] [INFO] default - 查找数据出现错误：TypeError: Cannot read properties of undefined (reading 'toJSON')
+[2023-09-03T16:06:23.204] [INFO] default -  wxToken
+[2023-09-03T16:08:07.189] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:09:11.407] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:09:37.528] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:09:57.745] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:10:31.938] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T16:10:31.948] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T16:10:31.957] [INFO] default - Promise { <pending> } wx
+[2023-09-03T16:10:32.001] [ERROR] default - (node:61265) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T16:10:32.003] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m56ms[39m [90m-[39m
+[2023-09-03T16:10:32.088] [INFO] default - 查找数据出现错误：TypeError: Cannot read properties of undefined (reading 'toJSON')
+[2023-09-03T16:10:32.242] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T16:10:32.249] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T16:10:32.251] [INFO] default - Promise { <pending> } wx
+[2023-09-03T16:10:32.257] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m9ms[39m [90m-[39m
+[2023-09-03T16:10:32.337] [INFO] default - 查找数据出现错误：TypeError: Cannot read properties of undefined (reading 'toJSON')
+[2023-09-03T16:10:32.398] [INFO] default -  wxToken
+[2023-09-03T16:10:32.409] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T16:10:32.419] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T16:10:32.420] [INFO] default - Promise { <pending> } wx
+[2023-09-03T16:10:32.424] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m5ms[39m [90m-[39m
+[2023-09-03T16:10:32.502] [INFO] default - 查找数据出现错误：TypeError: Cannot read properties of undefined (reading 'toJSON')
+[2023-09-03T16:10:32.622] [INFO] default -  wxToken
+[2023-09-03T16:10:32.784] [INFO] default -  wxToken
+[2023-09-03T16:16:12.146] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:16:33.734] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:16:55.501] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T16:17:05.037] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T16:17:05.046] [INFO] default -   [90m<--[39m [1mGET[22m [90m/createmenu[39m
+[2023-09-03T16:17:05.050] [INFO] default - Promise { <pending> } wx
+[2023-09-03T16:17:05.091] [ERROR] default - (node:63336) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-03T16:17:05.092] [INFO] default -   [90m-->[39m [1mGET[22m [90m/createmenu[39m [33m404[39m [90m47ms[39m [90m-[39m
+[2023-09-03T16:17:05.186] [INFO] default - 查找数据出现错误：TypeError: Cannot read properties of undefined (reading 'toJSON')
+[2023-09-03T16:17:05.652] [ERROR] default - uncaught exception:
+message: connect ECONNREFUSED 127.0.0.1:80 
+ stack: Error: connect ECONNREFUSED 127.0.0.1:80
+    at Function.AxiosError.from (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/axios/lib/core/AxiosError.js:89:14)
+    at RedirectableRequest.handleRequestError (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/axios/lib/adapters/http.js:591:25)
+    at RedirectableRequest.emit (node:events:513:28)
+    at RedirectableRequest.emit (node:domain:489:12)
+    at ClientRequest.eventHandlers.<computed> (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/follow-redirects/index.js:14:24)
+    at ClientRequest.emit (node:events:513:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at Socket.socketErrorListener (node:_http_client:494:9)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2023-09-03T16:18:24.289] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T21:00:04.779] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T21:00:21.113] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T21:02:49.274] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T21:03:22.351] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T21:03:52.838] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T21:18:32.568] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T21:18:40.277] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T21:18:40.286] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/createmenu[39m
+[2023-09-03T21:18:40.295] [ERROR] default - app onerror: 
+message: wxToken is not defined 
+ stack: ReferenceError: wxToken is not defined
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/wechat.js:20:43
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/wechat.js:4:39)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/wechat.js:4:39)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/wechat.js:4:39
+    at new Promise (<anonymous>)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/wechat.js:4:39
+    at Wechat.createMenu (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/wechat.js:23:5)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:14:14
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:1:38)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:1:38)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:1:38
+    at new Promise (<anonymous>)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:1:38
+    at createMenu (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:19:6)
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/lib/router.js:373:31)
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/node_modules/koa-compose/index.js:42:32)
+[2023-09-03T21:18:40.302] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/createmenu[39m [31m500[39m [90m17ms[39m [90m29b[39m
+[2023-09-03T21:18:55.628] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T21:18:58.437] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T21:18:58.445] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/createmenu[39m
+[2023-09-03T21:18:58.449] [INFO] default - undefinedaccess_token=1234124124 ======
+[2023-09-03T21:18:58.456] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/createmenu[39m [32m200[39m [90m12ms[39m [90m49b[39m
+[2023-09-03T21:19:22.180] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-03T21:19:27.492] [INFO] default - undefined undefined undefined undefined
+[2023-09-03T21:19:27.495] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/createmenu[39m
+[2023-09-03T21:19:27.496] [INFO] default - http://api.weixin.qq.com/cgi-bin/menu/delete?access_token=1234124124 ======
+[2023-09-03T21:19:27.499] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/createmenu[39m [32m200[39m [90m5ms[39m [90m49b[39m
+[2023-09-03T21:20:22.882] [INFO] default - app started at 0.0.0.0:9099
