@@ -32,5 +32,5 @@ testsunit/*
 coverage/*
 
 # package-lock.json
-yarn.lock
+# yarn.lock
 config/*.yaml
