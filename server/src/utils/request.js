@@ -5,9 +5,9 @@
 
 
 import https from 'https';
-// import util from 'util';
 import utilUrl from 'url';
 
+// POST请求方法
 export const requestPost = (url, data) => {
   return new Promise((resolve, reject) => {
     const urlData = utilUrl.parse(url);
@@ -35,5 +35,26 @@ export const requestPost = (url, data) => {
     });
     req.write(data);
     req.end();
-  })
-}
+  });
+};
+
+// GET请求方法
+export const requestGet = (url) => {
+  return new Promise((resolve, reject) => {
+    https
+    .get(url, (res) => {
+      const buffer = [], result = '';
+      res.on('data', (data) => {
+        buffer.push(data);
+      });
+      res.on('end', () => {
+        result = Buffer.concat(buffer).toString('utf-8');
+        resolve(result);
+      });
+    })
+    .on('error', (err) => {
+      reject(err)
+    });
+  });
+};
+

@@ -1,0 +1,123 @@
+[2023-09-16T21:31:17.993] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-16T21:31:41.278] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:31:41.281] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T21:31:41.287] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m6ms[39m [90m313b[39m
+[2023-09-16T21:31:41.313] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:31:41.314] [INFO] default -   [90m<--[39m [1mGET[22m [90m/favicon.ico[39m
+[2023-09-16T21:31:41.315] [INFO] default -   [90m-->[39m [1mGET[22m [90m/favicon.ico[39m [33m404[39m [90m1ms[39m [90m-[39m
+[2023-09-16T21:31:55.268] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:31:55.271] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T21:31:55.278] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m7ms[39m [90m313b[39m
+[2023-09-16T21:31:55.682] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:31:55.685] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T21:31:55.688] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m3ms[39m [90m313b[39m
+[2023-09-16T21:31:55.899] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:31:55.902] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T21:31:55.907] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m5ms[39m [90m313b[39m
+[2023-09-16T21:31:56.074] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:31:56.076] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T21:31:56.081] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m5ms[39m [90m313b[39m
+[2023-09-16T21:31:58.969] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:31:58.973] [INFO] default -   [90m<--[39m [1mGET[22m [90m/home[39m
+[2023-09-16T21:31:58.984] [INFO] default -   [90m-->[39m [1mGET[22m [90m/home[39m [32m200[39m [90m11ms[39m [90m583b[39m
+[2023-09-16T21:31:59.000] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:31:59.003] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:31:59.119] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:31:59.120] [INFO] default -   [90m<--[39m [1mGET[22m [90m/jsapi?url=http%3A%2F%2F0.0.0.0%3A9099%2Fhome[39m
+[2023-09-16T21:31:59.155] [ERROR] default - (node:4237) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-16T21:31:59.865] [INFO] default -   [90m-->[39m [1mGET[22m [90m/jsapi?url=http%3A%2F%2F0.0.0.0%3A9099%2Fhome[39m [32m200[39m [90m745ms[39m [90m211b[39m
+[2023-09-16T21:32:02.000] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:32:02.003] [INFO] default -   [90m<--[39m [1mGET[22m [90m/page/git-learn/1[39m
+[2023-09-16T21:32:02.014] [INFO] default -   [90m-->[39m [1mGET[22m [90m/page/git-learn/1[39m [32m200[39m [90m11ms[39m [90m21.48kb[39m
+[2023-09-16T21:32:02.030] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:32:02.031] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:32:02.036] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:32:02.037] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:33:55.061] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:33:55.064] [INFO] default -   [90m<--[39m [1mGET[22m [90m/home[39m
+[2023-09-16T21:33:55.070] [INFO] default -   [90m-->[39m [1mGET[22m [90m/home[39m [32m200[39m [90m6ms[39m [90m583b[39m
+[2023-09-16T21:33:55.117] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:33:55.118] [INFO] default -   [90m<--[39m [1mGET[22m [90m/jsapi?url=http%3A%2F%2F0.0.0.0%3A9099%2Fhome[39m
+[2023-09-16T21:33:55.705] [INFO] default -   [90m-->[39m [1mGET[22m [90m/jsapi?url=http%3A%2F%2F0.0.0.0%3A9099%2Fhome[39m [32m200[39m [90m587ms[39m [90m211b[39m
+[2023-09-16T21:34:26.554] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:34:26.560] [INFO] default -   [90m<--[39m [1mGET[22m [90m/home[39m
+[2023-09-16T21:34:26.563] [INFO] default -   [90m-->[39m [1mGET[22m [90m/home[39m [32m200[39m [90m3ms[39m [90m583b[39m
+[2023-09-16T21:34:26.598] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:34:26.599] [INFO] default -   [90m<--[39m [1mGET[22m [90m/jsapi?url=http%3A%2F%2F0.0.0.0%3A9099%2Fhome[39m
+[2023-09-16T21:34:27.483] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T21:34:27.485] [INFO] default -   [90m<--[39m [1mGET[22m [90m/page/git-learn/1[39m
+[2023-09-16T21:34:27.494] [INFO] default -   [90m-->[39m [1mGET[22m [90m/page/git-learn/1[39m [32m200[39m [90m9ms[39m [90m21.48kb[39m
+[2023-09-16T21:34:27.619] [INFO] default -   [90m-->[39m [1mGET[22m [90m/jsapi?url=http%3A%2F%2F0.0.0.0%3A9099%2Fhome[39m [32m200[39m [90m1,020ms[39m [90m211b[39m
+[2023-09-16T21:44:11.335] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-16T21:45:09.769] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-16T21:46:36.121] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-16T21:47:15.721] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-16T21:47:35.228] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-16T21:48:34.734] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-16T21:48:42.143] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-16T23:04:37.494] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:37.501] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:37.511] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m10ms[39m [90m313b[39m
+[2023-09-16T23:04:38.144] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:38.148] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:38.154] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m7ms[39m [90m313b[39m
+[2023-09-16T23:04:38.395] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:38.398] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:38.402] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m5ms[39m [90m313b[39m
+[2023-09-16T23:04:38.601] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:38.601] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:38.603] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m2ms[39m [90m313b[39m
+[2023-09-16T23:04:38.795] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:38.797] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:38.801] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m4ms[39m [90m313b[39m
+[2023-09-16T23:04:38.997] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:38.999] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:39.003] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m4ms[39m [90m313b[39m
+[2023-09-16T23:04:39.194] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:39.200] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:39.204] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m3ms[39m [90m313b[39m
+[2023-09-16T23:04:39.424] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:39.427] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:39.430] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m3ms[39m [90m313b[39m
+[2023-09-16T23:04:39.664] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:39.668] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:39.673] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m6ms[39m [90m313b[39m
+[2023-09-16T23:04:40.448] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:40.450] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:40.453] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m3ms[39m [90m313b[39m
+[2023-09-16T23:04:40.687] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:40.690] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:40.694] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m4ms[39m [90m313b[39m
+[2023-09-16T23:04:40.940] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:40.943] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:40.947] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m4ms[39m [90m313b[39m
+[2023-09-16T23:04:41.155] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:04:41.159] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:04:41.163] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m4ms[39m [90m313b[39m
+[2023-09-16T23:24:10.107] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-16T23:24:46.112] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-16T23:24:57.623] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:24:57.632] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:24:57.642] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m11ms[39m [90m313b[39m
+[2023-09-16T23:24:58.024] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:24:58.028] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:24:58.034] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m7ms[39m [90m313b[39m
+[2023-09-16T23:24:58.206] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:24:58.209] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:24:58.214] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m6ms[39m [90m313b[39m
+[2023-09-16T23:24:58.422] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:24:58.425] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:24:58.429] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m4ms[39m [90m313b[39m
+[2023-09-16T23:24:58.609] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:24:58.610] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:24:58.612] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m2ms[39m [90m313b[39m
+[2023-09-16T23:24:58.791] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:24:58.793] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:24:58.796] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m3ms[39m [90m313b[39m
+[2023-09-16T23:24:58.964] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:24:58.968] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:24:58.971] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m3ms[39m [90m313b[39m
+[2023-09-16T23:24:59.116] [INFO] default - undefined undefined undefined undefined
+[2023-09-16T23:24:59.117] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-09-16T23:24:59.119] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m2ms[39m [90m313b[39m

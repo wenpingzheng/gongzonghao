@@ -13,6 +13,7 @@ const router = new Router();
 
 // 路由 - 页面
 router.get('/', index.show);
+router.get('/pay', index.pay);
 router.get('/home', home.show);
 
 // 课程页 - GIT开发

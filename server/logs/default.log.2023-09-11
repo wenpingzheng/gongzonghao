@@ -1,0 +1,144 @@
+[2023-09-11T13:09:50.328] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:10:08.855] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:10:26.250] [INFO] default - undefined undefined undefined undefined
+[2023-09-11T13:10:26.258] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/createmenu[39m
+[2023-09-11T13:10:26.262] [INFO] default - Url {
+  protocol: 'http:',
+  slashes: true,
+  auth: null,
+  host: 'api.weixin.qq.com',
+  port: null,
+  hostname: 'api.weixin.qq.com',
+  hash: null,
+  search: '?access_token=3332222',
+  query: 'access_token=3332222',
+  pathname: '/cgi-bin/menu/create',
+  path: '/cgi-bin/menu/create?access_token=3332222',
+  href: 'http://api.weixin.qq.com/cgi-bin/menu/create?access_token=3332222'
+} urlData
+[2023-09-11T13:15:55.918] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:15:56.262] [INFO] default - undefined undefined undefined undefined
+[2023-09-11T13:15:56.265] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/createmenu[39m
+[2023-09-11T13:15:56.291] [ERROR] default - app onerror: 
+message: res is not defined 
+ stack: ReferenceError: res is not defined
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/request.js:32:5
+    at new Promise (<anonymous>)
+    at Object.requestPost (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/request.js:7:10)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/wechat.js:33:29
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/wechat.js:5:39)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/wechat.js:5:39)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/wechat.js:5:39
+    at new Promise (<anonymous>)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/wechat.js:5:39
+    at Wechat.createMenu (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/wechat.js:36:39)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:14:14
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:1:38)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:1:38)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:1:38
+    at new Promise (<anonymous>)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:1:38
+    at createMenu (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/apis/token.js:19:6)
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+[2023-09-11T13:15:56.294] [ERROR] default - (node:33958) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-11T13:15:56.295] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/createmenu[39m [31m500[39m [90m30ms[39m [90m25b[39m
+[2023-09-11T13:15:56.313] [INFO] default - undefined undefined undefined undefined
+[2023-09-11T13:15:56.315] [INFO] default -   [90m<--[39m [1mGET[22m [90m/favicon.ico[39m
+[2023-09-11T13:15:56.315] [INFO] default -   [90m-->[39m [1mGET[22m [90m/favicon.ico[39m [33m404[39m [90m1ms[39m [90m-[39m
+[2023-09-11T13:16:02.493] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:16:25.630] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:17:16.710] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:17:19.230] [INFO] default - undefined undefined undefined undefined
+[2023-09-11T13:17:19.238] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/createmenu[39m
+[2023-09-11T13:17:19.281] [ERROR] default - (node:34461) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-11T13:17:19.456] [INFO] default - {"errcode":41001,"errmsg":"access_token missing rid: 64fea2df-533e5297-09b5a984"} res==========
+[2023-09-11T13:17:19.465] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/createmenu[39m [32m200[39m [90m227ms[39m [90m49b[39m
+[2023-09-11T13:17:19.468] [INFO] default - Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+[2023-09-11T13:17:37.108] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:17:53.116] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:17:55.131] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:17:56.852] [INFO] default - undefined undefined undefined undefined
+[2023-09-11T13:17:56.856] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/createmenu[39m
+[2023-09-11T13:17:56.887] [ERROR] default - (node:34700) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-09-11T13:17:57.053] [INFO] default - 查找数据出现错误：TypeError: Cannot read properties of undefined (reading 'toJSON')
+[2023-09-11T13:17:57.534] [INFO] default - {"errcode":41001,"errmsg":"access_token missing rid: 64fea305-7217fd72-002a564e"} res==========
+[2023-09-11T13:17:57.546] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/createmenu[39m [32m200[39m [90m690ms[39m [90m49b[39m
+[2023-09-11T13:18:52.744] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:19:04.736] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:21:59.797] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:22:08.247] [INFO] default - app started at 0.0.0.0:9099
+[2023-09-11T13:22:08.316] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-11T13:28:50.922] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-11T13:37:56.590] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-11T13:38:26.269] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-11T13:38:36.799] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-11T13:40:39.520] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-11T13:40:42.888] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-11T13:43:55.924] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-09-11T13:44:12.420] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)

@@ -24,7 +24,6 @@ export default () => {
 
   useEffect(() => {
     const url = encodeURIComponent(location.href.split('#')[0]);
-    console.log(url, 'request-url');
     axios.get(`/jsapi?url=${url}`).then((result) => {
       console.log(result, 'result');
       wx.config({
