@@ -58,3 +58,14 @@ Object.keys(_request).forEach(function (key) {
     }
   });
 });
+var _oauth = require("./oauth");
+Object.keys(_oauth).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _oauth[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _oauth[key];
+    }
+  });
+});
