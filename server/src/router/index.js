@@ -15,7 +15,7 @@ const router = new Router();
 router.get('/', index.show);
 router.get('/pay', index.pay);
 router.get('/home', home.show);
-router.get('/wxpay', home.pay);
+router.get('/api/wxpay', home.pay);
 
 // 课程页 - GIT开发
 router.get('/page/git-learn/1', gitLearn.show);
