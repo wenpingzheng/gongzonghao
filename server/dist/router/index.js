@@ -21,6 +21,7 @@ var router = new _koaRouter.default();
 router.get('/', _index.default.show);
 router.get('/pay', _index.default.pay);
 router.get('/home', _home.default.show);
+router.get('/wxpay', _home.default.pay);
 
 // 课程页 - GIT开发
 router.get('/page/git-learn/1', _gitLearn.default.show);
