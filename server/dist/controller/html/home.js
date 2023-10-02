@@ -47,10 +47,11 @@ var _default = {
       } = ctx.query;
       var openUrl = wxpay.getCodeUrl(code);
       var {
-        openid
+        data: {
+          openid
+        }
       } = yield _axios.default.get(openUrl); // 过期时间2小时 access_token
 
-      console.log(openid, 'openid======');
       // body参数
       var order = {
         appid: appId,
@@ -71,17 +72,33 @@ var _default = {
       var nonce_str = utils.createNonceStr();
       var signature = utils.createSign("POST", "/v3/pay/transactions/jsapi", timestamp, nonce_str, order);
       var Authorization = "WECHATPAY2-SHA256-RSA2048 mchid=\"".concat(mchId, "\",nonce_str=\"").concat(nonce_str, "\",timestamp=\"").concat(timestamp, "\",signature=\"").concat(signature, "\",serial_no=\"").concat(serialNo, "\"");
-      _axios.default.post("", order, {
+      var {
+        data: {
+          prepay_id
+        }
+      } = yield _axios.default.post("https://api.mch.weixin.qq.com/v3/pay/transactions/jsapi", order, {
         headers: {
           Authorization: Authorization,
           Accept: "application/json",
           "Content-Type": "application/json"
         }
-      }).then(res => {
-        console.log(res, 'result======');
-      }).catch(err => {
-        console.log(err);
       });
+
+      // console.log(prepay_id, '======prepay_id======');
+      var prepayId = "prepay_id=".concat(prepay_id);
+      var data = {
+        appId,
+        timeStamp: timestamp,
+        nonceStr: nonce_str,
+        package: prepayId,
+        signType: 'RSA'
+      };
+      data['paySign'] = utils.createPaySign(appId, timestamp, nonce_str, prepayId);
+      ctx.body = {
+        code: 0,
+        msg: 'success',
+        data: data
+      };
     })();
   },
   wxpayed(ctx) {

@@ -83,7 +83,16 @@ export const formatMessage = (result) => {
  */
 export const createSign = (method, url, timestamp, nonce_str, order) => {
   const signStr = `${method}\n${url}\n${timestamp}\n${nonce_str}\n${JSON.stringify(order)}\n`;
-  const cert = fs.readFileSync("../../config/apiclient_key.pem", "utf-8");
+  const cert = fs.readFileSync("./config/apiclient_key.pem", "utf-8");
+  const sign = crypto.createSign("RSA-SHA256");
+  sign.update(signStr);
+  return sign.sign(cert, "base64");
+};
+
+/** */
+export const createPaySign = (appId, timeStamp, nonceStr, packages) => {
+  const signStr = `${appId}\n${timeStamp}\n${nonceStr}\n${packages}\n`;
+  const cert = fs.readFileSync("./config/apiclient_key.pem", "utf-8");
   const sign = crypto.createSign("RSA-SHA256");
   sign.update(signStr);
   return sign.sign(cert, "base64");

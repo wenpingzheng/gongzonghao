@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.parseXML = exports.formatMessage = exports.createTimestamp = exports.createSign = exports.createNonceStr = void 0;
+exports.parseXML = exports.formatMessage = exports.createTimestamp = exports.createSign = exports.createPaySign = exports.createNonceStr = void 0;
 // Created by WpZheng
 
 // 工具类函数
@@ -95,9 +95,19 @@ var formatMessage = result => {
 exports.formatMessage = formatMessage;
 var createSign = (method, url, timestamp, nonce_str, order) => {
   var signStr = "".concat(method, "\n").concat(url, "\n").concat(timestamp, "\n").concat(nonce_str, "\n").concat(JSON.stringify(order), "\n");
-  var cert = fs.readFileSync("../../config/apiclient_key.pem", "utf-8");
+  var cert = fs.readFileSync("./config/apiclient_key.pem", "utf-8");
   var sign = crypto.createSign("RSA-SHA256");
   sign.update(signStr);
   return sign.sign(cert, "base64");
 };
+
+/** */
 exports.createSign = createSign;
+var createPaySign = (appId, timeStamp, nonceStr, packages) => {
+  var signStr = "".concat(appId, "\n").concat(timeStamp, "\n").concat(nonceStr, "\n").concat(packages, "\n");
+  var cert = fs.readFileSync("./config/apiclient_key.pem", "utf-8");
+  var sign = crypto.createSign("RSA-SHA256");
+  sign.update(signStr);
+  return sign.sign(cert, "base64");
+};
+exports.createPaySign = createPaySign;
