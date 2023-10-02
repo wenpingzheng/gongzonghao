@@ -23,6 +23,7 @@ router.get('/pay', _index.default.pay);
 router.get('/home', _home.default.show);
 router.get('/api/pay', _home.default.pay);
 router.get('/api/wxpay', _home.default.wxpay);
+router.get('/api/wxpayed', _home.default.wxpayed);
 
 // 课程页 - GIT开发
 router.get('/page/git-learn/1', _gitLearn.default.show);

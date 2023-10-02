@@ -3,6 +3,8 @@
 
 // 工具类函数
 
+const fs = require('fs');
+const crypto = require('crypto');
 const xml2js = require('xml2js');
 
 /**
@@ -70,3 +72,19 @@ export const formatMessage = (result) => {
   return message;
 }
 
+/**
+ * @description 微信支付签名生成
+ * @param { string } method 请求方法
+ * @param { string } url
+ * @param { number } timestamp 时间戳 秒级
+ * @param { string } nonce_str 随机字符串
+ * @param { Object } order 主体信息
+ *  
+ */
+export const createSign = (method, url, timestamp, nonce_str, order) => {
+  const signStr = `${method}\n${url}\n${timestamp}\n${nonce_str}\n${JSON.stringify(order)}\n`;
+  const cert = fs.readFileSync("../../config/apiclient_key.pem", "utf-8");
+  const sign = crypto.createSign("RSA-SHA256");
+  sign.update(signStr);
+  return sign.sign(cert, "base64");
+};

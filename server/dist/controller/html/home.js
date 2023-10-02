@@ -16,7 +16,9 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 var {
   appId,
-  appSecret
+  appSecret,
+  mchId,
+  serialNo
 } = _config.default;
 var wxpay = new utils.WechatOAuth({
   appId,
@@ -34,13 +36,57 @@ var _default = {
   pay(ctx) {
     return _asyncToGenerator(function* () {
       var codeUrl = wxpay.getAuthorizeURL();
-      yield _axios.default.get(codeUrl);
+      console.log('授权URL:', codeUrl);
+      ctx.response.redirect(codeUrl);
     })();
   },
   wxpay(ctx) {
     return _asyncToGenerator(function* () {
-      console.log(ctx.query);
-      console.log('===========');
+      var {
+        code
+      } = ctx.query;
+      var openUrl = wxpay.getCodeUrl(code);
+      var {
+        openid
+      } = yield _axios.default.get(openUrl); // 过期时间2小时 access_token
+
+      console.log(openid, 'openid======');
+      // body参数
+      var order = {
+        appid: appId,
+        mchid: mchId,
+        description: '点击支付',
+        out_trade_no: 'wzm20231002',
+        amount: {
+          total: 1
+        },
+        payer: {
+          openid: openid
+        },
+        notify_url: 'https://xiaozhenggms.cn/api/wxpayed'
+      };
+
+      // Authorization
+      var timestamp = Math.floor(new Date().getTime() / 1000);
+      var nonce_str = utils.createNonceStr();
+      var signature = utils.createSign("POST", "/v3/pay/transactions/jsapi", timestamp, nonce_str, order);
+      var Authorization = "WECHATPAY2-SHA256-RSA2048 mchid=\"".concat(mchId, "\",nonce_str=\"").concat(nonce_str, "\",timestamp=\"").concat(timestamp, "\",signature=\"").concat(signature, "\",serial_no=\"").concat(serialNo, "\"");
+      _axios.default.post("", order, {
+        headers: {
+          Authorization: Authorization,
+          Accept: "application/json",
+          "Content-Type": "application/json"
+        }
+      }).then(res => {
+        console.log(res, 'result======');
+      }).catch(err => {
+        console.log(err);
+      });
+    })();
+  },
+  wxpayed(ctx) {
+    return _asyncToGenerator(function* () {
+      console.log('支付完成');
     })();
   }
 };

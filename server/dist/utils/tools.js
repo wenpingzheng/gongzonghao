@@ -3,11 +3,13 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.parseXML = exports.formatMessage = exports.createTimestamp = exports.createNonceStr = void 0;
+exports.parseXML = exports.formatMessage = exports.createTimestamp = exports.createSign = exports.createNonceStr = void 0;
 // Created by WpZheng
 
 // 工具类函数
 
+var fs = require('fs');
+var crypto = require('crypto');
 var xml2js = require('xml2js');
 
 /**
@@ -80,4 +82,22 @@ var formatMessage = result => {
   }
   return message;
 };
+
+/**
+ * @description 微信支付签名生成
+ * @param { string } method 请求方法
+ * @param { string } url
+ * @param { number } timestamp 时间戳 秒级
+ * @param { string } nonce_str 随机字符串
+ * @param { Object } order 主体信息
+ *  
+ */
 exports.formatMessage = formatMessage;
+var createSign = (method, url, timestamp, nonce_str, order) => {
+  var signStr = "".concat(method, "\n").concat(url, "\n").concat(timestamp, "\n").concat(nonce_str, "\n").concat(JSON.stringify(order), "\n");
+  var cert = fs.readFileSync("../../config/apiclient_key.pem", "utf-8");
+  var sign = crypto.createSign("RSA-SHA256");
+  sign.update(signStr);
+  return sign.sign(cert, "base64");
+};
+exports.createSign = createSign;

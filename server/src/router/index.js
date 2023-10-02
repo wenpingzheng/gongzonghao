@@ -17,6 +17,7 @@ router.get('/pay', index.pay);
 router.get('/home', home.show);
 router.get('/api/pay', home.pay);
 router.get('/api/wxpay', home.wxpay);
+router.get('/api/wxpayed', home.wxpayed);
 
 // 课程页 - GIT开发
 router.get('/page/git-learn/1', gitLearn.show);
