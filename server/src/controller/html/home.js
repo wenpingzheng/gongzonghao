@@ -16,9 +16,10 @@ export default {
   },
   async pay(ctx) {
     const codeUrl = wxpay.getAuthorizeURL();
-    console.log(codeUrl, 'codeUrl');
-    const codeData = await axios.get(codeUrl);
-    console.log(codeData);
-    ctx.body = codeData;
+    await axios.get(codeUrl);
+  },
+  async wxpay(ctx) {
+    console.log(ctx.query);
+    console.log('===========');
   }
 }
