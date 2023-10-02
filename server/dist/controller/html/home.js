@@ -34,10 +34,13 @@ var _default = {
   pay(ctx) {
     return _asyncToGenerator(function* () {
       var codeUrl = wxpay.getAuthorizeURL();
-      console.log(codeUrl, 'codeUrl');
-      var codeData = yield _axios.default.get(codeUrl);
-      console.log(codeData);
-      ctx.body = codeData;
+      yield _axios.default.get(codeUrl);
+    })();
+  },
+  wxpay(ctx) {
+    return _asyncToGenerator(function* () {
+      console.log(ctx.query);
+      console.log('===========');
     })();
   }
 };
