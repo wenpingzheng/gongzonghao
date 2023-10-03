@@ -56,7 +56,7 @@ export default {
     const prepayId = `prepay_id=${prepay_id}`;
     const data = {
       appId,
-      timeStamp: timestamp,
+      timeStamp: String(timestamp),
       nonceStr: nonce_str,
       package: prepayId,
       signType: 'RSA',

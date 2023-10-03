@@ -87,7 +87,7 @@ var _default = {
       var prepayId = "prepay_id=".concat(prepay_id);
       var data = {
         appId,
-        timeStamp: timestamp,
+        timeStamp: String(timestamp),
         nonceStr: nonce_str,
         package: prepayId,
         signType: 'RSA'

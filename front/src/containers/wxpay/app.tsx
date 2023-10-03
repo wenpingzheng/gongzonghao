@@ -14,10 +14,12 @@ export default () => {
     const params = getUrlParams(window.location.href);
     console.log(params.code, '参数中的code');
     axios
-      .get(`/api/pay?code=${params.code || ''}`)
+      .get(`/api/wxpay?code=${params.code || ''}`)
       .then((result) => {
         console.log(result, 'result-frontend');
-        const { code, data } = result;
+        const {
+          data: { code, data },
+        } = result;
         if (code === 0) {
           if (typeof WeixinJSBridge == 'undefined') {
             if (document.addEventListener) {
