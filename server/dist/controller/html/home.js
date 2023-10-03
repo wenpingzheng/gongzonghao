@@ -51,7 +51,7 @@ var _default = {
           openid
         }
       } = yield _axios.default.get(openUrl); // 过期时间2小时 access_token
-
+      console.log(openid, 'openid============');
       // body参数
       var order = {
         appid: appId,
@@ -83,8 +83,7 @@ var _default = {
           "Content-Type": "application/json"
         }
       });
-
-      // console.log(prepay_id, '======prepay_id======');
+      console.log(prepay_id, '======prepay_id======');
       var prepayId = "prepay_id=".concat(prepay_id);
       var data = {
         appId,

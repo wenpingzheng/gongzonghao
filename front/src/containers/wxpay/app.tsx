@@ -3,23 +3,37 @@ import React, { useEffect } from 'react';
 import axios from 'axios';
 
 export default () => {
+  const getUrlParams = (url) => {
+    let urlStr = url.split('?')[1];
+    const urlSearchParams = new URLSearchParams(urlStr);
+    const result = Object.fromEntries(urlSearchParams.entries());
+    return result;
+  };
+
   const handlePay = () => {
-    axios.get('/api/pay').then((result) => {
-      console.log(result, 'result-frontend');
-      const { code, data } = result;
-      if (code === 0) {
-        if (typeof WeixinJSBridge == 'undefined') {
-          if (document.addEventListener) {
-            document.addEventListener('WeixinJSBridgeReady', onBridgeReady(data), false);
-          } else if (document.attachEvent) {
-            document.attachEvent('WeixinJSBridgeReady', onBridgeReady(data));
-            document.attachEvent('onWeixinJSBridgeReady', onBridgeReady(data));
+    const params = getUrlParams(window.location.href);
+    console.log(params.code, '参数中的code');
+    axios
+      .get(`/api/pay?code=${params.code || ''}`)
+      .then((result) => {
+        console.log(result, 'result-frontend');
+        const { code, data } = result;
+        if (code === 0) {
+          if (typeof WeixinJSBridge == 'undefined') {
+            if (document.addEventListener) {
+              document.addEventListener('WeixinJSBridgeReady', onBridgeReady(data), false);
+            } else if (document.attachEvent) {
+              document.attachEvent('WeixinJSBridgeReady', onBridgeReady(data));
+              document.attachEvent('onWeixinJSBridgeReady', onBridgeReady(data));
+            }
+          } else {
+            onBridgeReady(data);
           }
-        } else {
-          onBridgeReady(data);
         }
-      }
-    });
+      })
+      .catch((error) => {
+        console.log(error, 'fronend==error');
+      });
 
     const onBridgeReady = (data: any) => {
       console.log(JSON.stringify(data), 'data');

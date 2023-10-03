@@ -23,7 +23,7 @@ export default {
     const { code } = ctx.query;
     const openUrl = wxpay.getCodeUrl(code);
     const { data: { openid } } = await axios.get(openUrl); // 过期时间2小时 access_token
-  
+    console.log(openid, 'openid============');
     // body参数
     const order = {
       appid: appId,
@@ -52,7 +52,7 @@ export default {
       }
     });
 
-    // console.log(prepay_id, '======prepay_id======');
+    console.log(prepay_id, '======prepay_id======');
     const prepayId = `prepay_id=${prepay_id}`;
     const data = {
       appId,
