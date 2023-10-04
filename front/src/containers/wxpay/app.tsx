@@ -1,6 +1,7 @@
 // @ts-nocheck
 import React, { useEffect } from 'react';
 import axios from 'axios';
+import Cookies from 'js-cookie';
 
 export default () => {
   const getUrlParams = (url) => {
@@ -18,8 +19,11 @@ export default () => {
       .then((result) => {
         console.log(result, 'result-frontend');
         const {
-          data: { code, data },
+          data: { code, data, openid },
         } = result;
+        if (openid && !Cookies.get('openid')) {
+          Cookies.set('openid', openid, { expires: 7 });
+        }
         if (code === 0) {
           if (typeof WeixinJSBridge == 'undefined') {
             if (document.addEventListener) {
@@ -40,9 +44,9 @@ export default () => {
     const onBridgeReady = (data: any) => {
       console.log(JSON.stringify(data), 'data');
       WeixinJSBridge.invoke('getBrandWCPayRequest', data, (res: { err_msg: string }) => {
-        console.log(JSON.stringify(res), 'json.string');
-        if (res.err_msg == 'get_brand_wcpay_request:ok') {
-          alert('支付成功...');
+        console.log(res, res.err_msg, JSON.stringify(res), 'json.string');
+        if (res.err_msg === 'get_brand_wcpay_request:ok') {
+          console.log('支付成功-frontend');
         }
       });
     };
@@ -53,7 +57,7 @@ export default () => {
   }, []);
   return (
     <div>
-      <button onClick={handlePay}>点我支付</button>
+      <button onClick={handlePay}>点击支付</button>
     </div>
   );
 };

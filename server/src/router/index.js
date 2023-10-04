@@ -17,10 +17,10 @@ router.get('/pay', index.pay);
 router.get('/home', home.show);
 router.get('/api/pay', home.pay);
 router.get('/api/wxpay', home.wxpay);
-router.get('/api/wxpayed', home.wxpayed);
+router.post('/api/notify', home.notify);
 
 // 课程页 - GIT开发
-router.get('/page/git-learn/1', gitLearn.show);
+router.get('/page/git-learn/:id', gitLearn.show);
 
 // 路由 - 接口
 router.get('/auth', wx.auth);

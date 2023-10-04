@@ -1,0 +1,1 @@
+openssl x509 -in apiclient_cert.pem -pubkey -noout > apiclient_wxp_pub.pem

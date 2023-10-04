@@ -19,8 +19,8 @@ class WechatOAuth {
     this.appId = opts.appId;
     this.appSecret = opts.appSecret;
   }
-  getAuthorizeURL() {
-    return "".concat(util.format(codeWeixinUrl, this.appId, urlencode.encode('https://xiaozhenggms.cn/pay')), "&response_type=code&scope=snsapi_base&state=1#wechat_redirect");
+  getAuthorizeURL(url) {
+    return "".concat(util.format(codeWeixinUrl, this.appId, urlencode.encode(url)), "&response_type=code&scope=snsapi_base&state=1#wechat_redirect");
   }
   getCodeUrl(code) {
     return "".concat(util.format(openApiUrl, this.appId, this.appSecret, code), "&grant_type=authorization_code");

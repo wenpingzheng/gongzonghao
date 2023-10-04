@@ -13,8 +13,8 @@ export class WechatOAuth {
     this.appSecret = opts.appSecret
   }
 
-  getAuthorizeURL () {
-    return `${util.format(codeWeixinUrl, this.appId, urlencode.encode('https://xiaozhenggms.cn/pay'))}&response_type=code&scope=snsapi_base&state=1#wechat_redirect`;
+  getAuthorizeURL (url) {
+    return `${util.format(codeWeixinUrl, this.appId, urlencode.encode(url))}&response_type=code&scope=snsapi_base&state=1#wechat_redirect`;
   }
 
   getCodeUrl (code) {

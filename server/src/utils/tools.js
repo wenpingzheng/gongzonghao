@@ -89,7 +89,14 @@ export const createSign = (method, url, timestamp, nonce_str, order) => {
   return sign.sign(cert, "base64");
 };
 
-/** */
+/**
+ * 
+ * @param {string} appId 
+ * @param {string} timeStamp 
+ * @param {string} nonceStr 
+ * @param {string} packages 
+ * @returns 
+ */
 export const createPaySign = (appId, timeStamp, nonceStr, packages) => {
   const signStr = `${appId}\n${timeStamp}\n${nonceStr}\n${packages}\n`;
   const cert = fs.readFileSync("./config/apiclient_key.pem", "utf-8");
@@ -97,3 +104,45 @@ export const createPaySign = (appId, timeStamp, nonceStr, packages) => {
   sign.update(signStr);
   return sign.sign(cert, "base64");
 };
+
+// 支付成功 回调信息
+export const verifySign = (headers, body) => {
+  try {
+    const publicKey = fs.readFileSync("./config/public_key.pem");
+    const timestamp = headers['wechatpay-timestamp'];
+    const nonce = headers['wechatpay-nonce'];
+    const signature = headers['wechatpay-signature'];
+    const buildSignMessage = buildSignMessageFun([timestamp, nonce, body]);
+    return crypto.createVerify('RSA-SHA256').update(buildSignMessage).verify(publicKey, signature, 'base64');
+  } catch (error) {
+    console.log(error, 'verifySign - error');
+  }
+}
+
+// 支付成功 解密信息
+export const aes256gcmDecrypt = (nonce, associatedData, ciphertext, key) => {
+  try {
+    const ciphertextBuffer = Buffer.from(ciphertext, 'base64');
+    const authTag = ciphertextBuffer.slice(ciphertextBuffer.length - 16)
+    const data = ciphertextBuffer.slice(0, ciphertextBuffer.length - 16)
+    const decipherIv = crypto.createDecipheriv('aes-256-gcm', key, nonce)
+    decipherIv.setAuthTag(Buffer.from(authTag))
+    decipherIv.setAAD(Buffer.from(associatedData))
+    const decryptStr = decipherIv.update(data, null, 'utf8')
+    decipherIv.final()
+    return decryptStr
+  } catch (error) {
+    console.log(error, 'aes256gcmDecrypt - error');
+  }
+}
+
+const buildSignMessageFun = (data) => {
+  if(!data || data.length <=0) {
+    return null
+  }
+  let sign = '';
+  data.forEach(item => {
+    sign = sign.concat(item).concat('\n')
+  })
+  return sign;
+}

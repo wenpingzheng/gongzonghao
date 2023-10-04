@@ -23,10 +23,10 @@ router.get('/pay', _index.default.pay);
 router.get('/home', _home.default.show);
 router.get('/api/pay', _home.default.pay);
 router.get('/api/wxpay', _home.default.wxpay);
-router.get('/api/wxpayed', _home.default.wxpayed);
+router.post('/api/notify', _home.default.notify);
 
 // 课程页 - GIT开发
-router.get('/page/git-learn/1', _gitLearn.default.show);
+router.get('/page/git-learn/:id', _gitLearn.default.show);
 
 // 路由 - 接口
 router.get('/auth', _wx.default.auth);

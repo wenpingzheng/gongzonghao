@@ -1,0 +1,425 @@
+[2023-10-02T07:57:59.336] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T07:59:09.178] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T07:59:15.362] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:00:06.926] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:00:23.917] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:01:50.220] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:25:45.268] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:25:51.936] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:28:26.878] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:28:32.609] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:30:56.329] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:32:50.064] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:32:54.907] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:37:23.295] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:38:16.789] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:53:06.104] [INFO] default - undefined undefined undefined undefined
+[2023-10-02T08:53:06.113] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/wxpay[39m
+[2023-10-02T08:53:06.116] [INFO] default - [Object: null prototype] {}
+[2023-10-02T08:53:06.116] [INFO] default - ===========
+[2023-10-02T08:53:06.120] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/wxpay[39m [33m404[39m [90m8ms[39m [90m-[39m
+[2023-10-02T08:53:30.713] [INFO] default - undefined undefined undefined undefined
+[2023-10-02T08:53:30.716] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/pay[39m
+[2023-10-02T08:53:30.735] [ERROR] default - app onerror: 
+message: urlencode is not a function 
+ stack: TypeError: urlencode is not a function
+    at WechatOAuth.getAuthorizeURL (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/oauth.js:14:54)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:18:27
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50
+    at new Promise (<anonymous>)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50
+    at pay (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:20:30)
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/lib/router.js:373:31)
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/node_modules/koa-compose/index.js:42:32)
+    at views (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-views/src/index.js:60:12)
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:92:32
+    at step (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:33:23)
+    at Object.next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:14:53)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:8:71
+    at new Promise (<anonymous>)
+[2023-10-02T08:53:30.739] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/pay[39m [31m500[39m [90m23ms[39m [90m34b[39m
+[2023-10-02T08:54:02.237] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:54:42.066] [INFO] default - undefined undefined undefined undefined
+[2023-10-02T08:54:42.075] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/pay[39m
+[2023-10-02T08:54:42.082] [ERROR] default - app onerror: 
+message: urlencode is not a function 
+ stack: TypeError: urlencode is not a function
+    at WechatOAuth.getAuthorizeURL (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/oauth.js:14:54)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:18:27
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50
+    at new Promise (<anonymous>)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50
+    at pay (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:20:30)
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-router/lib/router.js:373:31)
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/node_modules/koa-compose/index.js:42:32)
+    at views (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-views/src/index.js:60:12)
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:92:32
+    at step (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:33:23)
+    at Object.next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:14:53)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/lib/src/app.js:8:71
+    at new Promise (<anonymous>)
+[2023-10-02T08:54:42.090] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/pay[39m [31m500[39m [90m16ms[39m [90m34b[39m
+[2023-10-02T08:55:42.898] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T08:55:46.841] [INFO] default - undefined undefined undefined undefined
+[2023-10-02T08:55:46.849] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/pay[39m
+[2023-10-02T08:55:46.853] [INFO] default - https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx250422f548bb8d72&redirect_uri=https%3A%2F%2Fxiaozhenggms.cn%2Fapi%2Fwxpay&response_type=code&scope=snsapi_base&state=1#wechat_redirect codeUrl
+[2023-10-02T08:55:46.896] [ERROR] default - (node:1993) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-10-02T08:55:47.340] [ERROR] default - app onerror: 
+message: read ECONNRESET 
+ stack: Error: read ECONNRESET
+    at Function.AxiosError.from (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/axios/lib/core/AxiosError.js:89:14)
+    at RedirectableRequest.handleRequestError (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/axios/lib/adapters/http.js:591:25)
+    at RedirectableRequest.emit (node:events:513:28)
+    at RedirectableRequest.emit (node:domain:489:12)
+    at ClientRequest.eventHandlers.<computed> (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/follow-redirects/index.js:14:24)
+    at ClientRequest.emit (node:events:513:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.socketErrorListener (node:_http_client:494:9)
+    at TLSSocket.emit (node:events:513:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2023-10-02T08:55:47.345] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/pay[39m [31m500[39m [90m497ms[39m [90m22b[39m
+[2023-10-02T08:56:17.862] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T09:09:40.617] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T09:09:46.022] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T09:42:43.759] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:03:59.309] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:05:11.741] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:07:13.412] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:08:21.100] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:08:24.972] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:11:11.606] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:13:42.657] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:13:45.834] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:15:28.956] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:15:43.857] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:16:33.010] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:16:43.183] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T10:37:44.206] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T11:00:08.414] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T12:16:24.857] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T12:31:21.201] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T13:52:48.364] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T13:53:15.312] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T13:55:13.626] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T13:55:45.180] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T13:56:53.280] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:04:13.121] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:08:03.347] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:08:21.956] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:10:34.354] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:11:56.770] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:12:36.946] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:12:41.493] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:12:47.889] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:15:40.082] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:15:55.512] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:31:23.050] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:31:41.045] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:31:50.209] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:31:50.286] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-10-02T14:34:26.515] [ERROR] default - uncaught exception:
+message: listen EADDRINUSE: address already in use 0.0.0.0:9099 
+ stack: Error: listen EADDRINUSE: address already in use 0.0.0.0:9099
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-10-02T14:34:41.364] [INFO] default - undefined undefined undefined undefined
+[2023-10-02T14:34:41.375] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/pay[39m
+[2023-10-02T14:34:41.378] [INFO] default - 授权URL: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx250422f548bb8d72&redirect_uri=https%3A%2F%2Fxiaozhenggms.cn%2Fapi%2Fwxpay&response_type=code&scope=snsapi_base&state=1#wechat_redirect
+[2023-10-02T14:34:41.385] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/pay[39m [36m302[39m [90m11ms[39m [90m451b[39m
+[2023-10-02T14:35:03.323] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:35:13.114] [INFO] default - undefined undefined undefined undefined
+[2023-10-02T14:35:13.123] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/wxpay[39m
+[2023-10-02T14:35:13.173] [ERROR] default - (node:49699) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-10-02T14:35:13.353] [INFO] default - undefined openid======
+[2023-10-02T14:35:13.365] [ERROR] default - app onerror: 
+message: ENOENT: no such file or directory, open '../../../config/apiclient_key.pem' 
+ stack: Error: ENOENT: no such file or directory, open '../../../config/apiclient_key.pem'
+    at Object.openSync (node:fs:600:3)
+    at Object.readFileSync (node:fs:468:35)
+    at Object.createSign (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/tools.js:86:19)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:47:29
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-02T14:35:13.369] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/wxpay[39m [31m500[39m [90m247ms[39m [90m82b[39m
+[2023-10-02T14:35:30.488] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:35:31.673] [INFO] default - undefined undefined undefined undefined
+[2023-10-02T14:35:31.680] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/wxpay[39m
+[2023-10-02T14:35:31.708] [ERROR] default - (node:49986) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-10-02T14:35:31.909] [INFO] default - undefined openid======
+[2023-10-02T14:35:31.922] [ERROR] default - app onerror: 
+message: pwd is not defined 
+ stack: ReferenceError: pwd is not defined
+    at Object.createSign (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/tools.js:86:11)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:47:29
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-02T14:35:31.930] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/wxpay[39m [31m500[39m [90m250ms[39m [90m25b[39m
+[2023-10-02T14:35:39.136] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:35:39.867] [INFO] default - undefined undefined undefined undefined
+[2023-10-02T14:35:39.870] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/wxpay[39m
+[2023-10-02T14:35:39.898] [ERROR] default - (node:50060) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-10-02T14:35:40.069] [INFO] default - undefined openid======
+[2023-10-02T14:35:40.079] [ERROR] default - app onerror: 
+message: process.pwd is not a function 
+ stack: TypeError: process.pwd is not a function
+    at Object.createSign (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/tools.js:86:23)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:47:29
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-02T14:35:40.085] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/wxpay[39m [31m500[39m [90m215ms[39m [90m36b[39m
+[2023-10-02T14:36:08.606] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:36:12.712] [INFO] default - undefined undefined undefined undefined
+[2023-10-02T14:36:12.721] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/wxpay[39m
+[2023-10-02T14:36:12.768] [ERROR] default - (node:50188) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-10-02T14:36:12.942] [INFO] default - undefined openid======
+[2023-10-02T14:36:12.943] [INFO] default - /Users/zhengwenping/Projects/skill_proj/gongzonghao/server
+[2023-10-02T14:36:12.960] [ERROR] default - app onerror: 
+message: ENOENT: no such file or directory, open '../../../config/apiclient_key.pem' 
+ stack: Error: ENOENT: no such file or directory, open '../../../config/apiclient_key.pem'
+    at Object.openSync (node:fs:600:3)
+    at Object.readFileSync (node:fs:468:35)
+    at Object.createSign (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/utils/tools.js:87:19)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:47:29
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50)
+    at _next (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/controller/html/home.js:5:50)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-02T14:36:12.969] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/wxpay[39m [31m500[39m [90m250ms[39m [90m82b[39m
+[2023-10-02T14:36:29.761] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-02T14:36:31.706] [INFO] default - undefined undefined undefined undefined
+[2023-10-02T14:36:31.719] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/wxpay[39m
+[2023-10-02T14:36:31.765] [ERROR] default - (node:50318) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-10-02T14:36:31.951] [INFO] default - undefined openid======
+[2023-10-02T14:36:31.952] [INFO] default - /Users/zhengwenping/Projects/skill_proj/gongzonghao/server
+[2023-10-02T14:36:31.980] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/wxpay[39m [33m404[39m [90m261ms[39m [90m-[39m
+[2023-10-02T14:36:31.984] [INFO] default - AxiosError: connect ECONNREFUSED 127.0.0.1:80
+    at Function.AxiosError.from (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/axios/lib/core/AxiosError.js:89:14)
+    at RedirectableRequest.handleRequestError (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/axios/lib/adapters/http.js:591:25)
+    at RedirectableRequest.emit (node:events:513:28)
+    at RedirectableRequest.emit (node:domain:489:12)
+    at ClientRequest.eventHandlers.<computed> (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/follow-redirects/index.js:14:24)
+    at ClientRequest.emit (node:events:513:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at Socket.socketErrorListener (node:_http_client:494:9)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  port: 80,
+  address: '127.0.0.1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -61,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+      Authorization: 'WECHATPAY2-SHA256-RSA2048 mchid="1652277114",nonce_str="bph7z2jvsf6",timestamp="1696228591",signature="htZQvCLw+lS372xhlUQJnkQits1ME/C4XyWxfhb6uSy06wCp7rYCrlb8r4a0TDt4VolYlwfO1lhun5kjMvZgeHTNxi/I4QVaDXwMFnB671WAXuyAyxTXIaLE1Dhh68TzXGX6AHbHWc2B4thlfQUkovhX/kQx1SvXzAdC2Tx/iUOl1SbaNZmvS5SVcEqiM9pX8PQCERNQ0WbKHjdf0sd9xwpMXiPETLAqVftCan5WM5k6yBT9wtoWYeSyjpGt6CSWLagoSRfCuhMA8WBRcqYWqTFh1yRKGLL4SJ7n+xt8Vn5OPv4sQXdVHuTkxXjZ+pMrWmEbx0C6BBnLVe1AyZR2bg==",serial_no="5260A3F48793E3C57390380ED940CE4DED7785F2"',
+      'User-Agent': 'axios/1.4.0',
+      'Content-Length': '192',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: '',
+    data: '{"appid":"wx250422f548bb8d72","mchid":"1652277114","description":"点击支付","out_trade_no":"wzm20231002","amount":{"total":1},"payer":{},"notify_url":"https://xiaozhenggms.cn/api/wxpayed"}'
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/',
+      method: 'POST',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      lookup: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/'
+    },
+    _ended: false,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 192,
+    _requestBodyBuffers: [ [Object] ],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: '192',
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'POST / HTTP/1.1\r\n' +
+        'Accept: application/json\r\n' +
+        'Content-Type: application/json\r\n' +
+        'Authorization: WECHATPAY2-SHA256-RSA2048 mchid="1652277114",nonce_str="bph7z2jvsf6",timestamp="1696228591",signature="htZQvCLw+lS372xhlUQJnkQits1ME/C4XyWxfhb6uSy06wCp7rYCrlb8r4a0TDt4VolYlwfO1lhun5kjMvZgeHTNxi/I4QVaDXwMFnB671WAXuyAyxTXIaLE1Dhh68TzXGX6AHbHWc2B4thlfQUkovhX/kQx1SvXzAdC2Tx/iUOl1SbaNZmvS5SVcEqiM9pX8PQCERNQ0WbKHjdf0sd9xwpMXiPETLAqVftCan5WM5k6yBT9wtoWYeSyjpGt6CSWLagoSRfCuhMA8WBRcqYWqTFh1yRKGLL4SJ7n+xt8Vn5OPv4sQXdVHuTkxXjZ+pMrWmEbx0C6BBnLVe1AyZR2bg==",serial_no="5260A3F48793E3C57390380ED940CE4DED7785F2"\r\n' +
+        'User-Agent: axios/1.4.0\r\n' +
+        'Content-Length: 192\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kEndCalled)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost/',
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 127.0.0.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+}
+[2023-10-02T14:36:44.985] [INFO] default - app started at 0.0.0.0:9099

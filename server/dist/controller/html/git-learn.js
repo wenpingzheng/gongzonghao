@@ -12,9 +12,13 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 var _default = {
   show(ctx) {
     return _asyncToGenerator(function* () {
-      var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/git-learn.ejs'), {
-        title: '首页'
-      });
+      var pageId = ctx.params.id;
+      var html = '';
+      if (pageId) {
+        html = yield _ejs.default.renderFile(_path.default.join(__dirname, "../../../views/git-learn-".concat(pageId, ".ejs")), {
+          title: '首页'
+        });
+      }
       ctx.body = html;
     })();
   }
