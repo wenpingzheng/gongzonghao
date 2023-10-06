@@ -40,7 +40,6 @@ var _default = {
   pay(ctx) {
     return _asyncToGenerator(function* () {
       var codeUrl = wxpay.getAuthorizeURL('https://xiaozhenggms.cn/pay');
-      console.log('授权URL:', codeUrl);
       ctx.response.redirect(codeUrl);
     })();
   },

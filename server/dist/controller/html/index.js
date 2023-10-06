@@ -12,17 +12,23 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 var _default = {
   show(ctx) {
     return _asyncToGenerator(function* () {
-      var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/index.ejs'), {
+      var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/404.ejs'), {
         title: '首页'
       });
+      // const html = await ejs.renderFile(path.join(__dirname, '../../../views/index.ejs'), {
+      //   title: '首页'
+      // });
       ctx.body = html;
     })();
   },
   pay(ctx) {
     return _asyncToGenerator(function* () {
-      var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/pay.ejs'), {
+      var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/404.ejs'), {
         title: '支付页'
       });
+      // const html = await ejs.renderFile(path.join(__dirname, '../../../views/pay.ejs'), {
+      //   title: '支付页'
+      // });
       ctx.body = html;
     })();
   }

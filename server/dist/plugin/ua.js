@@ -25,7 +25,9 @@ class Info extends _koa.Plugin {
     app.use( /*#__PURE__*/function () {
       var _ref = _asyncToGenerator(function* (ctx, next) {
         var isApi = /^\/api\//.test(ctx.url);
-        if (!isApi) {
+        var isAuth = /^\/auth/.test(ctx.url);
+        var isJsapi = /^\/jsapi/.test(ctx.url);
+        if (!isApi && !isAuth && !isJsapi) {
           var userAgent = ctx.headers['user-agent'];
           var isWeChat = /MicroMessenger/i.test(userAgent);
           if (!isWeChat) {

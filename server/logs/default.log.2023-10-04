@@ -1,0 +1,150 @@
+[2023-10-04T20:48:35.437] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T20:48:43.965] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T20:48:43.984] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-10-04T20:48:43.988] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m5ms[39m [90m356b[39m
+[2023-10-04T20:49:06.682] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T20:49:06.688] [INFO] default -   [90m<--[39m [1mGET[22m [90m/home[39m
+[2023-10-04T20:49:06.698] [INFO] default -   [90m-->[39m [1mGET[22m [90m/home[39m [32m200[39m [90m11ms[39m [90m583b[39m
+[2023-10-04T20:49:06.715] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T20:49:06.717] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T20:49:06.740] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T20:49:06.742] [INFO] default -   [90m<--[39m [1mGET[22m [90m/jsapi?url=http%3A%2F%2F0.0.0.0%3A9099%2Fhome[39m
+[2023-10-04T20:49:06.772] [ERROR] default - (node:82784) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-10-04T20:49:08.205] [INFO] default -   [90m-->[39m [1mGET[22m [90m/jsapi?url=http%3A%2F%2F0.0.0.0%3A9099%2Fhome[39m [32m200[39m [90m1,459ms[39m [90m211b[39m
+[2023-10-04T20:49:09.271] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T20:49:09.274] [INFO] default -   [90m<--[39m [1mGET[22m [90m/page/git-learn/1[39m
+[2023-10-04T20:49:09.289] [INFO] default -   [90m-->[39m [1mGET[22m [90m/page/git-learn/1[39m [32m200[39m [90m16ms[39m [90m21.48kb[39m
+[2023-10-04T20:49:09.298] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T20:49:09.298] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T20:49:09.307] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T20:49:09.307] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T21:05:07.696] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:05:18.937] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:08:01.317] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:17:43.000] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:17:56.510] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:18:26.392] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:19:56.767] [INFO] default - {}
+[2023-10-04T21:19:56.773] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:19:59.574] [INFO] default - {}
+[2023-10-04T21:19:59.581] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:20:00.674] [INFO] default - {}
+[2023-10-04T21:20:00.681] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:38:21.469] [INFO] default - {}
+[2023-10-04T21:38:21.471] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:38:44.662] [INFO] default - {}
+[2023-10-04T21:38:44.669] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:38:56.654] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T21:38:56.662] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-10-04T21:38:56.663] [INFO] default - {
+  request: {
+    method: 'GET',
+    url: '/',
+    header: {
+      host: '0.0.0.0:9099',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+      'accept-encoding': 'gzip, deflate',
+      'accept-language': 'zh-CN,zh;q=0.9'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] { vary: 'Accept-Encoding' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+} ctx==
+[2023-10-04T21:38:56.674] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [36m302[39m [90m12ms[39m [90m356b[39m
+[2023-10-04T21:39:19.287] [INFO] default - {}
+[2023-10-04T21:39:19.294] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:39:21.388] [INFO] default - {}
+[2023-10-04T21:39:21.395] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:39:33.346] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T21:39:33.350] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/pay[39m
+[2023-10-04T21:39:33.351] [INFO] default - {
+  request: {
+    method: 'GET',
+    url: '/api/pay',
+    header: {
+      host: '0.0.0.0:9099',
+      connection: 'keep-alive',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+      'accept-encoding': 'gzip, deflate',
+      'accept-language': 'zh-CN,zh;q=0.9'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] { vary: 'Accept-Encoding' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/pay',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+} ctx==
+[2023-10-04T21:39:33.354] [INFO] default - 授权URL: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx250422f548bb8d72&redirect_uri=https%3A%2F%2Fxiaozhenggms.cn%2Fpay&response_type=code&scope=snsapi_base&state=1#wechat_redirect
+[2023-10-04T21:39:33.359] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/pay[39m [36m302[39m [90m9ms[39m [90m435b[39m
+[2023-10-04T21:43:00.897] [INFO] default - {}
+[2023-10-04T21:43:00.904] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:43:11.104] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T21:43:11.111] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/pay[39m
+[2023-10-04T21:43:11.114] [INFO] default -   [31mxxx[39m [1mGET[22m [90m/api/pay[39m [31m500[39m [90m3ms[39m [90m-[39m
+[2023-10-04T21:43:11.130] [ERROR] default - app onerror: 
+message: ctx.url.test is not a function 
+ stack: TypeError: ctx.url.test is not a function
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/src/plugin/ua.js:15:27
+    at dispatch (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-logger/index.js:67:7)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-compress/index.js:43:5
+    at serve (/Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/koa-static/index.js:53:9)
+    at /Users/zhengwenping/Projects/skill_proj/gongzonghao/server/node_modules/@wpzheng/koa/node_modules/koa-static-cache/index.js:53:36
+[2023-10-04T21:43:39.342] [INFO] default - {}
+[2023-10-04T21:43:39.349] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:43:41.094] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T21:43:41.101] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/pay[39m
+[2023-10-04T21:43:41.103] [INFO] default - true ctx==
+[2023-10-04T21:43:41.108] [INFO] default - 授权URL: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx250422f548bb8d72&redirect_uri=https%3A%2F%2Fxiaozhenggms.cn%2Fpay&response_type=code&scope=snsapi_base&state=1#wechat_redirect
+[2023-10-04T21:43:41.113] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/pay[39m [36m302[39m [90m13ms[39m [90m435b[39m
+[2023-10-04T21:43:55.481] [INFO] default - undefined undefined undefined undefined
+[2023-10-04T21:43:55.484] [INFO] default -   [90m<--[39m [1mGET[22m [90m/page/git-learn/1[39m
+[2023-10-04T21:43:55.486] [INFO] default - false ctx==
+[2023-10-04T21:43:55.499] [INFO] default -   [90m-->[39m [1mGET[22m [90m/page/git-learn/1[39m [36m302[39m [90m16ms[39m [90m21.48kb[39m
+[2023-10-04T21:45:47.505] [INFO] default - {}
+[2023-10-04T21:45:47.511] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:48:23.892] [INFO] default - {}
+[2023-10-04T21:48:23.899] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:48:33.246] [INFO] default - {}
+[2023-10-04T21:48:33.249] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:52:55.937] [INFO] default - {}
+[2023-10-04T21:52:55.946] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:53:20.391] [INFO] default - {}
+[2023-10-04T21:53:20.393] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:59:23.171] [INFO] default - {}
+[2023-10-04T21:59:23.178] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:59:37.907] [INFO] default - {}
+[2023-10-04T21:59:37.913] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T21:59:41.915] [INFO] default - {}
+[2023-10-04T21:59:41.918] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T22:01:11.967] [INFO] default - {}
+[2023-10-04T22:01:11.974] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T22:01:24.162] [INFO] default - {}
+[2023-10-04T22:01:24.164] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T22:01:31.704] [INFO] default - {}
+[2023-10-04T22:01:31.716] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T22:01:37.627] [INFO] default - {}
+[2023-10-04T22:01:37.636] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-04T22:31:08.881] [INFO] default - {}
+[2023-10-04T22:31:08.889] [INFO] default - app started at 0.0.0.0:9099

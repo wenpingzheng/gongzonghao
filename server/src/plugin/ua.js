@@ -13,7 +13,9 @@ class Info extends Plugin {
     console.log(config);
     app.use(async (ctx, next) => {
       const isApi = /^\/api\//.test(ctx.url);
-      if (!isApi) {
+      const isAuth = /^\/auth/.test(ctx.url);
+      const isJsapi = /^\/jsapi/.test(ctx.url);
+      if (!isApi && !isAuth && !isJsapi) {
         const userAgent = ctx.headers['user-agent'];
         const isWeChat = /MicroMessenger/i.test(userAgent);
         if (!isWeChat) {
