@@ -146,3 +146,9 @@ const buildSignMessageFun = (data) => {
   })
   return sign;
 }
+
+export const isTestEnv = (ctx) => {
+  const { t = 'prod' } = ctx.query;
+  const isTest = t === 'test';
+  return isTest;
+}

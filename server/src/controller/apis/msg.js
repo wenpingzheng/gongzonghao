@@ -14,6 +14,16 @@ export default {
       const content = await utils.parseXML(data);
       const result = utils.formatMessage(content.xml);
       if (result.MsgType === 'event') {
+        if (result.Event === 'subscribe') {
+          const html = await ejs.renderFile(path.join(__dirname, '../../../views/wx.ejs'), {
+            ...result,
+            title: '前端面试题下载链接',
+            url: 'https://pan.baidu.com/s/1olBN-qPvDVX8reUn_0jfig?pwd=uq8f',
+            time: new Date().getTime(),
+          });
+          reportMsg = html;
+        }
+        // 点击响应
         if (result.Event === 'CLICK') {
           if (result.EventKey === 'download') {
             // 下载响应

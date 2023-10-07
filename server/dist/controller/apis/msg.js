@@ -27,15 +27,24 @@ var _default = {
         var content = yield utils.parseXML(data);
         var result = utils.formatMessage(content.xml);
         if (result.MsgType === 'event') {
+          if (result.Event === 'subscribe') {
+            var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/wx.ejs'), _objectSpread(_objectSpread({}, result), {}, {
+              title: '前端面试题下载链接',
+              url: 'https://pan.baidu.com/s/1olBN-qPvDVX8reUn_0jfig?pwd=uq8f',
+              time: new Date().getTime()
+            }));
+            reportMsg = html;
+          }
+          // 点击响应
           if (result.Event === 'CLICK') {
             if (result.EventKey === 'download') {
               // 下载响应
-              var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/wx.ejs'), _objectSpread(_objectSpread({}, result), {}, {
+              var _html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/wx.ejs'), _objectSpread(_objectSpread({}, result), {}, {
                 title: '前端面试题下载链接',
                 url: 'https://pan.baidu.com/s/1olBN-qPvDVX8reUn_0jfig?pwd=uq8f',
                 time: new Date().getTime()
               }));
-              reportMsg = html;
+              reportMsg = _html;
             }
           }
         }

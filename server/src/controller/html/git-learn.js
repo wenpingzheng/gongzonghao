@@ -7,7 +7,7 @@ export default {
     let html = '';
     if (pageId) {
       html = await ejs.renderFile(path.join(__dirname, `../../../views/git-learn-${pageId}.ejs`), {
-        title: '首页'
+        title: '文章'
       });
     }
     ctx.body = html;

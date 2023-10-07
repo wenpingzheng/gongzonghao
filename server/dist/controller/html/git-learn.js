@@ -16,7 +16,7 @@ var _default = {
       var html = '';
       if (pageId) {
         html = yield _ejs.default.renderFile(_path.default.join(__dirname, "../../../views/git-learn-".concat(pageId, ".ejs")), {
-          title: '首页'
+          title: '文章'
         });
       }
       ctx.body = html;

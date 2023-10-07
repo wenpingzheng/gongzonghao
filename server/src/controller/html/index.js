@@ -1,23 +1,32 @@
 import ejs from 'ejs';
 import path from 'path';
+import * as utils from '../../utils';
 
 export default {
   async show(ctx) {
-    const html = await ejs.renderFile(path.join(__dirname, '../../../views/404.ejs'), {
-      title: '首页'
-    });
-    // const html = await ejs.renderFile(path.join(__dirname, '../../../views/index.ejs'), {
-    //   title: '首页'
-    // });
-    ctx.body = html;
+    if (utils.isTestEnv(ctx)) {
+      const html = await ejs.renderFile(path.join(__dirname, '../../../views/index.ejs'), {
+        title: '上课报名'
+      });
+      ctx.body = html;
+    } else {
+      const html = await ejs.renderFile(path.join(__dirname, '../../../views/404.ejs'), {
+        title: '上课报名'
+      });
+      ctx.body = html;
+    }
   },
   async pay(ctx) {
-    const html = await ejs.renderFile(path.join(__dirname, '../../../views/404.ejs'), {
-      title: '支付页'
-    });
-    // const html = await ejs.renderFile(path.join(__dirname, '../../../views/pay.ejs'), {
-    //   title: '支付页'
-    // });
-    ctx.body = html;
+    if (utils.isTestEnv(ctx)) {
+      const html = await ejs.renderFile(path.join(__dirname, '../../../views/pay.ejs'), {
+        title: '好课推荐'
+      });
+      ctx.body = html;
+    } else {
+      const html = await ejs.renderFile(path.join(__dirname, '../../../views/404.ejs'), {
+        title: '好课推荐'
+      });
+      ctx.body = html;
+    }
   }
 }

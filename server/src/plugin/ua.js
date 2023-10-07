@@ -12,10 +12,12 @@ class Info extends Plugin {
   apply(app, config) {
     console.log(config);
     app.use(async (ctx, next) => {
+      const { t = 'prod' } = ctx.query;
+      const isTest = t === 'test';
       const isApi = /^\/api\//.test(ctx.url);
       const isAuth = /^\/auth/.test(ctx.url);
       const isJsapi = /^\/jsapi/.test(ctx.url);
-      if (!isApi && !isAuth && !isJsapi) {
+      if (!isTest && !isApi && !isAuth && !isJsapi) {
         const userAgent = ctx.headers['user-agent'];
         const isWeChat = /MicroMessenger/i.test(userAgent);
         if (!isWeChat) {

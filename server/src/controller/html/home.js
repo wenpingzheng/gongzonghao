@@ -13,10 +13,17 @@ const dbname = process.env.NODE_TLS_REJECT_UNAUTHORIZED === '0' ? 'db_Paylist' :
 
 export default {
   async show(ctx) {
-    const html = await ejs.renderFile(path.join(__dirname, '../../../views/home.ejs'), {
-      title: '个人页'
-    });
-    ctx.body = html;
+    if (utils.isTestEnv(ctx)) {
+      const html = await ejs.renderFile(path.join(__dirname, '../../../views/home.ejs'), {
+        title: '好课推荐'
+      });
+      ctx.body = html;
+    } else {
+      const html = await ejs.renderFile(path.join(__dirname, '../../../views/404.ejs'), {
+        title: '好课推荐'
+      });
+      ctx.body = html;
+    }
   },
   async pay(ctx) {
     const codeUrl = wxpay.getAuthorizeURL('https://xiaozhenggms.cn/pay');

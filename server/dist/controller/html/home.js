@@ -31,10 +31,17 @@ var dbname = process.env.NODE_TLS_REJECT_UNAUTHORIZED === '0' ? 'db_Paylist' : '
 var _default = {
   show(ctx) {
     return _asyncToGenerator(function* () {
-      var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/home.ejs'), {
-        title: '个人页'
-      });
-      ctx.body = html;
+      if (utils.isTestEnv(ctx)) {
+        var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/home.ejs'), {
+          title: '好课推荐'
+        });
+        ctx.body = html;
+      } else {
+        var _html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/404.ejs'), {
+          title: '好课推荐'
+        });
+        ctx.body = _html;
+      }
     })();
   },
   pay(ctx) {

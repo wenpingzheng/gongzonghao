@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.verifySign = exports.parseXML = exports.formatMessage = exports.createTimestamp = exports.createSign = exports.createPaySign = exports.createNonceStr = exports.aes256gcmDecrypt = void 0;
+exports.verifySign = exports.parseXML = exports.isTestEnv = exports.formatMessage = exports.createTimestamp = exports.createSign = exports.createPaySign = exports.createNonceStr = exports.aes256gcmDecrypt = void 0;
 // Created by WpZheng
 
 // 工具类函数
@@ -161,3 +161,11 @@ var buildSignMessageFun = data => {
   });
   return sign;
 };
+var isTestEnv = ctx => {
+  var {
+    t = 'prod'
+  } = ctx.query;
+  var isTest = t === 'test';
+  return isTest;
+};
+exports.isTestEnv = isTestEnv;
