@@ -31,6 +31,8 @@ var _default = {
             var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/wx.ejs'), _objectSpread(_objectSpread({}, result), {}, {
               title: '前端面试题下载链接',
               url: 'https://pan.baidu.com/s/1olBN-qPvDVX8reUn_0jfig?pwd=uq8f',
+              ftitle: '前端基本功学习资源',
+              furl: 'https://pan.baidu.com/s/1iAk7_o2ZwO-rnA_eVLvHUQ?pwd=r1s7',
               time: new Date().getTime()
             }));
             reportMsg = html;
@@ -42,6 +44,8 @@ var _default = {
               var _html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/wx.ejs'), _objectSpread(_objectSpread({}, result), {}, {
                 title: '前端面试题下载链接',
                 url: 'https://pan.baidu.com/s/1olBN-qPvDVX8reUn_0jfig?pwd=uq8f',
+                ftitle: '前端基本功学习资源',
+                furl: 'https://pan.baidu.com/s/1iAk7_o2ZwO-rnA_eVLvHUQ?pwd=r1s7',
                 time: new Date().getTime()
               }));
               reportMsg = _html;
