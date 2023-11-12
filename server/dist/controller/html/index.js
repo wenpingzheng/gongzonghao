@@ -30,17 +30,17 @@ var _default = {
   },
   pay(ctx) {
     return _asyncToGenerator(function* () {
-      if (utils.isTestEnv(ctx)) {
-        var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/pay.ejs'), {
-          title: '好课推荐'
-        });
-        ctx.body = html;
-      } else {
-        var _html2 = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/404.ejs'), {
-          title: '好课推荐'
-        });
-        ctx.body = _html2;
-      }
+      // if (utils.isTestEnv(ctx)) {
+      var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/pay.ejs'), {
+        title: '好课推荐'
+      });
+      ctx.body = html;
+      // } else {
+      //   const html = await ejs.renderFile(path.join(__dirname, '../../../views/404.ejs'), {
+      //     title: '好课推荐'
+      //   });
+      //   ctx.body = html;
+      // }
     })();
   }
 };

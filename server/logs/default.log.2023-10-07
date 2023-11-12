@@ -1,0 +1,110 @@
+[2023-10-07T07:54:25.793] [INFO] default - {}
+[2023-10-07T07:54:25.802] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T07:54:27.879] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T07:54:27.889] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-10-07T07:54:27.895] [INFO] default - [Object: null prototype] {}
+[2023-10-07T07:54:27.899] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [36m302[39m [90m11ms[39m [90m931b[39m
+[2023-10-07T07:54:56.736] [INFO] default - {}
+[2023-10-07T07:54:56.743] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T07:55:16.771] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T07:55:16.779] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-10-07T07:55:16.781] [INFO] default - [Object: null prototype] {} apply
+[2023-10-07T07:55:16.787] [INFO] default - [Object: null prototype] {}
+[2023-10-07T07:55:16.791] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [36m302[39m [90m12ms[39m [90m931b[39m
+[2023-10-07T07:55:50.949] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T07:55:50.958] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T07:55:50.959] [INFO] default - [Object: null prototype] { t: 'test' } apply
+[2023-10-07T07:55:50.962] [INFO] default - [Object: null prototype] { t: 'test' }
+[2023-10-07T07:55:50.965] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [36m302[39m [90m8ms[39m [90m931b[39m
+[2023-10-07T07:57:27.249] [INFO] default - {}
+[2023-10-07T07:57:27.256] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T07:57:43.216] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T07:57:43.226] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T07:57:43.231] [INFO] default - [Object: null prototype] { t: 'test' }
+[2023-10-07T07:57:43.236] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m11ms[39m [90m931b[39m
+[2023-10-07T08:02:59.812] [INFO] default - {}
+[2023-10-07T08:02:59.825] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:04:51.058] [INFO] default - {}
+[2023-10-07T08:04:51.065] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:05:27.052] [INFO] default - {}
+[2023-10-07T08:05:27.059] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:06:07.746] [INFO] default - {}
+[2023-10-07T08:06:07.752] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:06:15.469] [INFO] default - {}
+[2023-10-07T08:06:15.476] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:06:17.418] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:06:17.432] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:06:17.447] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m16ms[39m [90m931b[39m
+[2023-10-07T08:06:17.990] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:06:17.994] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:06:18.001] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m7ms[39m [90m931b[39m
+[2023-10-07T08:06:18.204] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:06:18.206] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:06:18.209] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m3ms[39m [90m931b[39m
+[2023-10-07T08:06:18.363] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:06:18.365] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:06:18.367] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m2ms[39m [90m931b[39m
+[2023-10-07T08:06:18.523] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:06:18.525] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:06:18.527] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m3ms[39m [90m931b[39m
+[2023-10-07T08:06:56.490] [INFO] default - {}
+[2023-10-07T08:06:56.499] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:06:57.609] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:06:57.619] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:06:57.633] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m14ms[39m [90m356b[39m
+[2023-10-07T08:06:58.400] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:06:58.405] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:06:58.413] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m8ms[39m [90m356b[39m
+[2023-10-07T08:06:58.585] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:06:58.587] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:06:58.590] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m3ms[39m [90m356b[39m
+[2023-10-07T08:12:05.013] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:12:05.014] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:12:05.017] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m3ms[39m [90m388b[39m
+[2023-10-07T08:12:05.939] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:12:05.942] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:12:05.947] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m5ms[39m [90m388b[39m
+[2023-10-07T08:14:51.055] [INFO] default - {}
+[2023-10-07T08:14:51.062] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:15:06.024] [INFO] default - {}
+[2023-10-07T08:15:06.031] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:15:27.950] [INFO] default - {}
+[2023-10-07T08:15:27.957] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:15:43.023] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:15:43.026] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:15:43.031] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m6ms[39m [90m394b[39m
+[2023-10-07T08:15:43.866] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:15:43.869] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:15:43.876] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m7ms[39m [90m394b[39m
+[2023-10-07T08:15:44.160] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:15:44.162] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T08:15:44.163] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m1ms[39m [90m394b[39m
+[2023-10-07T08:16:12.952] [INFO] default - {}
+[2023-10-07T08:16:12.960] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:17:12.872] [INFO] default - {}
+[2023-10-07T08:17:12.875] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:23:56.807] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T08:23:56.819] [INFO] default -   [90m<--[39m [1mGET[22m [90m/home[39m
+[2023-10-07T08:23:56.830] [INFO] default -   [90m-->[39m [1mGET[22m [90m/home[39m [36m302[39m [90m12ms[39m [90m615b[39m
+[2023-10-07T08:25:20.337] [INFO] default - {}
+[2023-10-07T08:25:20.346] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:25:28.718] [INFO] default - {}
+[2023-10-07T08:25:28.730] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:52:55.354] [INFO] default - {}
+[2023-10-07T08:52:55.366] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:55:55.496] [INFO] default - {}
+[2023-10-07T08:55:55.508] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T08:56:00.535] [INFO] default - {}
+[2023-10-07T08:56:00.537] [INFO] default - app started at 0.0.0.0:9099
+[2023-10-07T09:11:20.185] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T09:11:20.196] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T09:11:20.213] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m17ms[39m [90m394b[39m
+[2023-10-07T09:11:21.228] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T09:11:21.230] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T09:11:21.234] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m4ms[39m [90m394b[39m
+[2023-10-07T09:11:21.519] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T09:11:21.521] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T09:11:21.526] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m5ms[39m [90m394b[39m
+[2023-10-07T09:11:21.715] [INFO] default - undefined undefined undefined undefined
+[2023-10-07T09:11:21.717] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-10-07T09:11:21.721] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m4ms[39m [90m394b[39m

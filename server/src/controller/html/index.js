@@ -17,16 +17,16 @@ export default {
     }
   },
   async pay(ctx) {
-    if (utils.isTestEnv(ctx)) {
-      const html = await ejs.renderFile(path.join(__dirname, '../../../views/pay.ejs'), {
-        title: '好课推荐'
-      });
-      ctx.body = html;
-    } else {
-      const html = await ejs.renderFile(path.join(__dirname, '../../../views/404.ejs'), {
-        title: '好课推荐'
-      });
-      ctx.body = html;
-    }
+    // if (utils.isTestEnv(ctx)) {
+    const html = await ejs.renderFile(path.join(__dirname, '../../../views/pay.ejs'), {
+      title: '好课推荐'
+    });
+    ctx.body = html;
+    // } else {
+    //   const html = await ejs.renderFile(path.join(__dirname, '../../../views/404.ejs'), {
+    //     title: '好课推荐'
+    //   });
+    //   ctx.body = html;
+    // }
   }
 }

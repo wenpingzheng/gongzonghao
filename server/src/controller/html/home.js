@@ -45,7 +45,7 @@ export default {
         description: '点击支付',
         out_trade_no: utils.createNonceStr(),
         amount: {
-          total: 1,
+          total: 0.01 * 100,
         },
         payer: {
           openid: openId,
@@ -125,7 +125,7 @@ export default {
       out_trade_no: outTradeNo,
       transaction_id: transactionId,
       openid,
-      amount: total,
+      amount: total / 100,
       time: successTime,
       details: JSON.stringify(callBackInfo),
     });
