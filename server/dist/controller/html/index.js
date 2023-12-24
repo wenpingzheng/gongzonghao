@@ -7,6 +7,7 @@ exports.default = void 0;
 var _ejs = _interopRequireDefault(require("ejs"));
 var _path = _interopRequireDefault(require("path"));
 var utils = _interopRequireWildcard(require("../../utils"));
+var _course = _interopRequireDefault(require("../../../config/course.json"));
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -30,9 +31,15 @@ var _default = {
   },
   pay(ctx) {
     return _asyncToGenerator(function* () {
+      // 课程ID
+      var kid = ctx.params.id;
       // if (utils.isTestEnv(ctx)) {
       var html = yield _ejs.default.renderFile(_path.default.join(__dirname, '../../../views/pay.ejs'), {
-        title: '好课推荐'
+        data: {
+          kid,
+          title: (_course.default === null || _course.default === void 0 ? void 0 : _course.default[kid]['title']) || '',
+          discountPrice: (_course.default === null || _course.default === void 0 ? void 0 : _course.default[kid]['discountPrice']) || ''
+        }
       });
       ctx.body = html;
       // } else {

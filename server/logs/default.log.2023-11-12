@@ -1,0 +1,28 @@
+[2023-11-12T21:16:40.709] [INFO] default - {}
+[2023-11-12T21:16:40.720] [INFO] default - app started at 0.0.0.0:9099
+[2023-11-12T21:18:41.127] [INFO] default - undefined undefined undefined undefined
+[2023-11-12T21:18:41.138] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-11-12T21:18:41.149] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [36m302[39m [90m11ms[39m [90m963b[39m
+[2023-11-12T21:18:51.354] [INFO] default - undefined undefined undefined undefined
+[2023-11-12T21:18:51.359] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/pay[39m
+[2023-11-12T21:18:51.371] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/pay[39m [36m302[39m [90m12ms[39m [90m435b[39m
+[2023-11-12T21:20:56.277] [INFO] default - {}
+[2023-11-12T21:20:56.284] [INFO] default - app started at 0.0.0.0:9099
+[2023-11-12T21:21:02.312] [INFO] default - undefined undefined undefined undefined
+[2023-11-12T21:21:02.320] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-11-12T21:21:02.322] [INFO] default - false isTest
+[2023-11-12T21:21:02.336] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [36m302[39m [90m16ms[39m [90m963b[39m
+[2023-11-12T21:21:18.579] [INFO] default - undefined undefined undefined undefined
+[2023-11-12T21:21:18.584] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-11-12T21:21:18.585] [INFO] default - true isTest
+[2023-11-12T21:21:18.595] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m12ms[39m [90m394b[39m
+[2023-11-12T21:21:18.665] [INFO] default - undefined undefined undefined undefined
+[2023-11-12T21:21:18.667] [INFO] default -   [90m<--[39m [1mGET[22m [90m/favicon.ico[39m
+[2023-11-12T21:21:18.667] [INFO] default - false isTest
+[2023-11-12T21:21:18.670] [INFO] default -   [90m-->[39m [1mGET[22m [90m/favicon.ico[39m [36m302[39m [90m3ms[39m [90m423b[39m
+[2023-11-12T21:52:13.523] [INFO] default - {}
+[2023-11-12T21:52:13.531] [INFO] default - app started at 0.0.0.0:9099
+[2023-11-12T21:52:19.827] [INFO] default - {}
+[2023-11-12T21:52:19.834] [INFO] default - app started at 0.0.0.0:9099
+[2023-11-12T21:52:24.325] [INFO] default - {}
+[2023-11-12T21:52:24.332] [INFO] default - app started at 0.0.0.0:9099

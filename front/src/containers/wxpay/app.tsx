@@ -1,10 +1,13 @@
 // @ts-nocheck
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Cookies from 'js-cookie';
+import './styles/index.scss';
 
 export default () => {
-  const getUrlParams = (url) => {
+  const [orderinfo, setOrderInfo] = useState({});
+
+  const getUrlParams = (url: string) => {
     let urlStr = url.split('?')[1];
     const urlSearchParams = new URLSearchParams(urlStr);
     const result = Object.fromEntries(urlSearchParams.entries());
@@ -12,12 +15,13 @@ export default () => {
   };
 
   const handlePay = () => {
+    const { kid = '', discountPrice = '' } = orderinfo;
     const params = getUrlParams(window.location.href);
-    console.log(params.code, '参数中的code');
+    // console.log(params.code, '参数中的code');
     axios
-      .get(`/api/wxpay?code=${params.code || ''}`)
+      .get(`/api/wxpay?code=${params.code || ''}&kid=${kid}&discountPrice=${discountPrice}`)
       .then((result) => {
-        console.log(result, 'result-frontend');
+        // console.log(result, 'result-frontend');
         const {
           data: { code, data, openid },
         } = result;
@@ -25,7 +29,7 @@ export default () => {
           Cookies.set('openid', openid, { expires: 7 });
         }
         if (code === 0) {
-          if (typeof WeixinJSBridge == 'undefined') {
+          if (typeof window.WeixinJSBridge == 'undefined') {
             if (document.addEventListener) {
               document.addEventListener('WeixinJSBridgeReady', onBridgeReady(data), false);
             } else if (document.attachEvent) {
@@ -42,9 +46,9 @@ export default () => {
       });
 
     const onBridgeReady = (data: any) => {
-      console.log(JSON.stringify(data), 'data');
-      WeixinJSBridge.invoke('getBrandWCPayRequest', data, (res: { err_msg: string }) => {
-        console.log(res, res.err_msg, JSON.stringify(res), 'json.string');
+      // console.log(JSON.stringify(data), 'data');
+      window.WeixinJSBridge.invoke('getBrandWCPayRequest', data, (res: { err_msg: string }) => {
+        // console.log(res, res.err_msg, JSON.stringify(res), 'json.string');
         if (res.err_msg === 'get_brand_wcpay_request:ok') {
           console.log('支付成功-frontend');
         }
@@ -53,11 +57,31 @@ export default () => {
   };
 
   useEffect(() => {
-    console.log('支付页面');
+    try {
+      const confirmData = window.DATA || {};
+      setOrderInfo(confirmData);
+    } catch (error) {
+      console.log(`解析window对象错误：${error}`);
+    }
   }, []);
+
+  const isEmpty = Object.keys(orderinfo).length === 0;
+  const { title = '', discountPrice = '' } = orderinfo;
   return (
-    <div>
-      <button onClick={handlePay}>点击支付</button>
+    <div className='weui-area_confirm'>
+      {isEmpty ? (
+        <i className='weui-loading'></i>
+      ) : (
+        <>
+          <button className='customize weui-btn weui-btn_primary'>{title}</button>
+          <button className='customize weui-btn weui-btn_primary'>
+            支付金额：<strong>{discountPrice}</strong> 元
+          </button>
+          <button onClick={handlePay} className='weui-btn weui-btn_primary'>
+            确认支付
+          </button>
+        </>
+      )}
     </div>
   );
 };

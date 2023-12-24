@@ -46,14 +46,17 @@ var _default = {
   },
   pay(ctx) {
     return _asyncToGenerator(function* () {
-      var codeUrl = wxpay.getAuthorizeURL('https://xiaozhenggms.cn/pay');
+      var kid = ctx.params.id;
+      var codeUrl = wxpay.getAuthorizeURL("https://xiaozhenggms.cn/pay/".concat(kid));
       ctx.response.redirect(codeUrl);
     })();
   },
   wxpay(ctx) {
     return _asyncToGenerator(function* () {
       var {
-        code
+        code,
+        kid,
+        discountPrice
       } = ctx.query;
       var openId = ctx.cookies.get('openid') || '';
       try {
@@ -73,12 +76,12 @@ var _default = {
           description: '点击支付',
           out_trade_no: utils.createNonceStr(),
           amount: {
-            total: 0.01 * 100
+            total: Number(discountPrice) * 100
           },
           payer: {
             openid: openId
           },
-          notify_url: 'https://xiaozhenggms.cn/api/notify'
+          notify_url: "https://xiaozhenggms.cn/api/notify/".concat(kid)
         };
 
         // Authorization
@@ -119,6 +122,8 @@ var _default = {
   },
   notify(ctx) {
     return _asyncToGenerator(function* () {
+      var kid = ctx.params.id;
+      console.log('notify===========', kid);
       var data = ctx.request.body;
       var headers = ctx.request.headers;
       /**
@@ -139,7 +144,6 @@ var _default = {
       */
       // 第一步：验证签名
       var verifysign = utils.verifySign(headers, JSON.stringify(data));
-      console.log(verifysign, 'verifysign');
       if (!verifysign) {
         return '支付认证失败';
       }
@@ -171,6 +175,7 @@ var _default = {
         out_trade_no: outTradeNo,
         transaction_id: transactionId,
         openid,
+        kid,
         amount: total / 100,
         time: successTime,
         details: JSON.stringify(callBackInfo)

@@ -19,6 +19,7 @@ class Db {
     this.dbname = dbname;
     this.dbSet = new AV.Object(dbname);
     this.dbGet = new AV.Query(dbname);
+    this.fdGet = new AV.Query(dbname);
     return this;
   }
 
@@ -63,6 +64,20 @@ class Db {
       return adata.toJSON();
     } catch(error) {
       console.log(`查找数据出现错误：${error}`);
+    }
+  }
+
+  // 多条件查询
+  async findByConditions(ovalue, kvalue) {
+    const { dbGet, fdGet } = this;
+    try {
+      dbGet.equalTo('kid', kvalue);
+      fdGet.equalTo('openid', ovalue);
+      const query = AV.Query.and(dbGet, fdGet);
+      const adata = await query.first();
+      return adata.toJSON();
+    } catch (error) {
+      console.log(`多条件查询数据出现错误：${error}`);
     }
   }
 };

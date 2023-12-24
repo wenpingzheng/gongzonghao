@@ -10,7 +10,6 @@ const wxpay = new utils.WechatOAuth({ appId, appSecret});
 // 实例化数据库
 const dbname = process.env.NODE_TLS_REJECT_UNAUTHORIZED === '0' ? 'db_Paylist' : 'Paylist';
 
-
 export default {
   async show(ctx) {
     if (utils.isTestEnv(ctx)) {
@@ -26,11 +25,12 @@ export default {
     }
   },
   async pay(ctx) {
-    const codeUrl = wxpay.getAuthorizeURL('https://xiaozhenggms.cn/pay');
+    const kid = ctx.params.id;
+    const codeUrl = wxpay.getAuthorizeURL(`https://xiaozhenggms.cn/pay/${kid}`);
     ctx.response.redirect(codeUrl);
   },
   async wxpay(ctx) {
-    const { code } = ctx.query;
+    const { code, kid, discountPrice } = ctx.query;
     let openId = ctx.cookies.get('openid') || '';
     try {
       if (!openId) {
@@ -45,12 +45,12 @@ export default {
         description: '点击支付',
         out_trade_no: utils.createNonceStr(),
         amount: {
-          total: 0.01 * 100,
+          total: Number(discountPrice) * 100,
         },
         payer: {
           openid: openId,
         },
-        notify_url: 'https://xiaozhenggms.cn/api/notify',
+        notify_url: `https://xiaozhenggms.cn/api/notify/${kid}`,
       }
 
       // Authorization
@@ -85,6 +85,7 @@ export default {
     }
   },
   async notify(ctx) {
+    const kid = ctx.params.id;
     const data = ctx.request.body;
     const headers = ctx.request.headers;
     /**
@@ -105,7 +106,6 @@ export default {
     */
     // 第一步：验证签名
     const verifysign = utils.verifySign(headers, JSON.stringify(data));
-    console.log(verifysign, 'verifysign');
     if (!verifysign) {
       return '支付认证失败';
     }
@@ -125,6 +125,7 @@ export default {
       out_trade_no: outTradeNo,
       transaction_id: transactionId,
       openid,
+      kid,
       amount: total / 100,
       time: successTime,
       details: JSON.stringify(callBackInfo),

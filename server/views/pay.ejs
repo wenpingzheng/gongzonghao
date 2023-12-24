@@ -2,16 +2,20 @@
 <html lang="zh-CN" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover"/>
+    <link rel="stylesheet" href="https://res.wx.qq.com/t/wx_fed/weui-source/res/2.6.7/weui.min.css">
+    <link rel="stylesheet" href="/assets/wxpay.f60318a5c5f8b3f6f6ff.min.css">
     <script src="https://res2.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+    <script>
+      window.DATA = <%- JSON.stringify(data) %>;
+    </script>
   </head>
   <body>
-    <a href="/">返回首页</a>
-    <div id="root">正文-<%= title %></div>
+    <div id="root"></div>
   </body>
-  <script src="/js/wxpay.f71436dbb2fff611632e.min.js"></script>
-  <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+  <script src="/js/wxpay.d15387d9400575b3c5a5.min.js"></script>
+  <!-- <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script> -->
   <script>
     // VConsole 会自动挂载到 `window.VConsole`
-    var vConsole = new window.VConsole();
+    // var vConsole = new window.VConsole();
   </script>
 </html>

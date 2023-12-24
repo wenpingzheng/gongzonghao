@@ -10,6 +10,7 @@ var _msg = _interopRequireDefault(require("../controller/apis/msg"));
 var _home = _interopRequireDefault(require("../controller/html/home"));
 var _index = _interopRequireDefault(require("../controller/html/index"));
 var _gitLearn = _interopRequireDefault(require("../controller/html/git-learn"));
+var _course = _interopRequireDefault(require("../controller/html/course"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 // API
 
@@ -19,14 +20,15 @@ var router = new _koaRouter.default();
 
 // 路由 - 页面
 router.get('/', _index.default.show);
-router.get('/pay', _index.default.pay);
+router.get('/pay/:id', _index.default.pay);
 router.get('/home', _home.default.show);
-router.get('/api/pay', _home.default.pay);
+router.get('/api/pay/:id', _home.default.pay);
 router.get('/api/wxpay', _home.default.wxpay);
-router.post('/api/notify', _home.default.notify);
+router.post('/api/notify/:id', _home.default.notify);
 
 // 课程页 - GIT开发
 router.get('/page/git-learn/:id', _gitLearn.default.show);
+router.get('/page/interview-hc/:id', _course.default.show);
 
 // 路由 - 接口
 router.get('/auth', _wx.default.auth);

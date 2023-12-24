@@ -1,0 +1,21 @@
+
+.weui-area_confirm {
+  padding: 20px;
+  .weui-loading {
+    margin: 5rem auto;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+  }
+  .customize {
+    color: #575755;
+    border: 1px solid #a9d8e3;
+    background: #deeef5;
+    strong {
+      color:#ec5362;
+    }
+  }
+}
+.weui-btn {
+  width: 100%;
+}

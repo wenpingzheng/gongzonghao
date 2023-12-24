@@ -1,6 +1,7 @@
 import ejs from 'ejs';
 import path from 'path';
 import * as utils from '../../utils';
+import course from '../../../config/course.json';
 
 export default {
   async show(ctx) {
@@ -17,9 +18,15 @@ export default {
     }
   },
   async pay(ctx) {
+    // 课程ID
+    const kid = ctx.params.id;
     // if (utils.isTestEnv(ctx)) {
     const html = await ejs.renderFile(path.join(__dirname, '../../../views/pay.ejs'), {
-      title: '好课推荐'
+      data: {
+        kid,
+        title: course?.[kid]['title'] || '',
+        discountPrice: course?.[kid]['discountPrice'] || '',
+      }
     });
     ctx.body = html;
     // } else {

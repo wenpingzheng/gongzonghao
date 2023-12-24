@@ -1,0 +1,46 @@
+.weui-bottom-fixed {
+  position: fixed;
+  left:0;
+  bottom:0;
+  height: 60px;
+  width: 100%;
+  .weui-bottom-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .weui-intro {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 10px;
+    width: 70%;
+    font-size: 18px;
+    color: #5d5f5d;
+    p {
+      margin: 0;
+    }
+    .title {
+      overflow:hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    s {
+      margin-right: 14px;
+      color: #959595;
+      font-size: 16px;
+    }
+    span {
+      color:#ea5564;
+      font-size: 19px;
+    }
+  }
+  .weui-button {
+    color:#fff;
+    font-size: 20px;
+    background-color: #ea5564;
+    height: 60px;
+    width: 30%;
+    line-height: 60px;
+    text-align: center;
+  }
+}

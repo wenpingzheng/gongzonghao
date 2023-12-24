@@ -1,0 +1,35 @@
+[2023-12-23T22:13:56.875] [INFO] default - {}
+[2023-12-23T22:13:56.883] [INFO] default - app started at 0.0.0.0:9099
+[2023-12-23T22:14:07.858] [INFO] default - undefined undefined undefined undefined
+[2023-12-23T22:14:07.866] [INFO] default -   [90m<--[39m [1mGET[22m [90m/[39m
+[2023-12-23T22:14:07.876] [INFO] default -   [90m-->[39m [1mGET[22m [90m/[39m [36m302[39m [90m10ms[39m [90m963b[39m
+[2023-12-23T22:14:13.174] [INFO] default - undefined undefined undefined undefined
+[2023-12-23T22:14:13.178] [INFO] default -   [90m<--[39m [1mGET[22m [90m/?t=test[39m
+[2023-12-23T22:14:13.183] [INFO] default -   [90m-->[39m [1mGET[22m [90m/?t=test[39m [32m200[39m [90m6ms[39m [90m394b[39m
+[2023-12-23T22:14:13.239] [INFO] default - undefined undefined undefined undefined
+[2023-12-23T22:14:13.239] [INFO] default -   [90m<--[39m [1mGET[22m [90m/favicon.ico[39m
+[2023-12-23T22:14:13.240] [INFO] default -   [90m-->[39m [1mGET[22m [90m/favicon.ico[39m [36m302[39m [90m1ms[39m [90m423b[39m
+[2023-12-23T22:14:21.049] [INFO] default - undefined undefined undefined undefined
+[2023-12-23T22:14:21.051] [INFO] default -   [90m<--[39m [1mGET[22m [90m/api/pay[39m
+[2023-12-23T22:14:21.057] [INFO] default -   [90m-->[39m [1mGET[22m [90m/api/pay[39m [36m302[39m [90m6ms[39m [90m459b[39m
+[2023-12-23T22:14:23.100] [INFO] default - undefined undefined undefined undefined
+[2023-12-23T22:14:23.100] [INFO] default -   [90m<--[39m [1mGET[22m [90m/favicon.ico[39m
+[2023-12-23T22:14:23.102] [INFO] default -   [90m-->[39m [1mGET[22m [90m/favicon.ico[39m [36m302[39m [90m2ms[39m [90m423b[39m
+[2023-12-23T22:22:36.512] [INFO] default - {}
+[2023-12-23T22:22:36.518] [INFO] default - app started at 0.0.0.0:9099
+[2023-12-23T22:22:41.627] [INFO] default - {}
+[2023-12-23T22:22:41.634] [INFO] default - app started at 0.0.0.0:9099
+[2023-12-23T22:22:53.279] [INFO] default - {}
+[2023-12-23T22:22:53.291] [INFO] default - app started at 0.0.0.0:9099
+[2023-12-23T22:24:28.398] [INFO] default - {}
+[2023-12-23T22:24:28.409] [INFO] default - app started at 0.0.0.0:9099
+[2023-12-23T22:25:35.635] [INFO] default - {}
+[2023-12-23T22:25:35.643] [INFO] default - app started at 0.0.0.0:9099
+[2023-12-23T22:26:52.044] [INFO] default - {}
+[2023-12-23T22:26:52.051] [INFO] default - app started at 0.0.0.0:9099
+[2023-12-23T22:44:52.421] [INFO] default - {}
+[2023-12-23T22:44:52.428] [INFO] default - app started at 0.0.0.0:9099
+[2023-12-23T22:49:34.724] [INFO] default - {}
+[2023-12-23T22:49:34.726] [INFO] default - app started at 0.0.0.0:9099
+[2023-12-23T22:49:49.421] [INFO] default - {}
+[2023-12-23T22:49:49.424] [INFO] default - app started at 0.0.0.0:9099
